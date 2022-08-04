@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/chielvanderpas/ddss#"
-     xml:base="https://github.com/chielvanderpas/ddss"
+<rdf:RDF xmlns="https://chielvanderpas.github.io/ddss-ontology#"
+     xml:base="https://chielvanderpas.github.io/ddss-ontology"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://github.com/chielvanderpas/ddss">
+    <owl:Ontology rdf:about="https://chielvanderpas.github.io/ddss-ontology">
         <owl:imports rdf:resource="https://w3id.org/bot-0.3.2"/>
         <terms:creator>Chiel van der Pas</terms:creator>
         <terms:description>This ontology describes how data that has to be stored for a longer period of time within the built environment should be structured. The ontology is part of the Durable Data Storage System project, which is developed as part of a graduation thesis of the MSc. Construction Management and Engineering at Eindhoven University of Technology.</terms:description>
@@ -51,6 +51,26 @@
      -->
 
 
+    
+
+
+    <!-- https://chielvanderpas.github.io/ddss-ontology/ddPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/ddPartOf">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DataDrop"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://chielvanderpas.github.io/ddss-ontology/hasResponsibleActor -->
+
+
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/hasResponsibleActor">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
+    </owl:ObjectProperty>
     
 
 
@@ -240,26 +260,6 @@
 
     <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#uploadedBy">
         <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DataDrop"/>
-        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://github.com/chielvanderpas/ddss/ddPartOf -->
-
-
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss/ddPartOf">
-        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DataDrop"/>
-        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://github.com/chielvanderpas/ddss/hasResponsibleActor -->
-
-
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss/hasResponsibleActor">
-        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction"/>
         <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
     </owl:ObjectProperty>
     

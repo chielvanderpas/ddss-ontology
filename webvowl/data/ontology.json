@@ -2,8 +2,8 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "undefined" ],
-    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://chielvanderpas.github.io/ddss-ontology/", "http://xmlns.com/foaf/spec/", "https://bag2.basisregistraties.overheid.nl/bag/def", "https://github.com/chielvanderpas/ddss" ],
-    "iri" : "https://github.com/chielvanderpas/ddss",
+    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://chielvanderpas.github.io/ddss-ontology/", "http://xmlns.com/foaf/spec/", "https://chielvanderpas.github.io/ddss-ontology", "https://bag2.basisregistraties.overheid.nl/bag/def" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology",
     "author" : [ "Chiel van der Pas" ],
     "description" : {
       "undefined" : "This ontology describes how data that has to be stored for a longer period of time within the built environment should be structured. The ontology is part of the Durable Data Storage System project, which is developed as part of a graduation thesis of the MSc. Construction Management and Engineering at Eindhoven University of Technology."
@@ -40,13 +40,13 @@
     "id" : "37",
     "type" : "owl:Class"
   }, {
-    "id" : "58",
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
     "type" : "owl:Class"
   }, {
     "id" : "59",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
     "type" : "owl:Class"
   }, {
     "id" : "47",
@@ -55,22 +55,22 @@
     "id" : "9",
     "type" : "owl:Class"
   }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
     "id" : "68",
     "type" : "owl:Class"
   }, {
-    "id" : "69",
-    "type" : "owl:Class"
-  }, {
-    "id" : "71",
+    "id" : "70",
     "type" : "owl:Class"
   }, {
     "id" : "45",
     "type" : "owl:Class"
   }, {
-    "id" : "76",
+    "id" : "75",
     "type" : "owl:Class"
   }, {
-    "id" : "60",
+    "id" : "58",
     "type" : "owl:Class"
   }, {
     "id" : "36",
@@ -82,46 +82,46 @@
     "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "88",
+    "id" : "87",
     "type" : "owl:Class"
   }, {
     "id" : "40",
     "type" : "owl:Class"
   }, {
-    "id" : "82",
-    "type" : "owl:Class"
-  }, {
     "id" : "81",
     "type" : "owl:Class"
   }, {
-    "id" : "63",
+    "id" : "80",
     "type" : "owl:Class"
   }, {
-    "id" : "91",
+    "id" : "62",
     "type" : "owl:Class"
   }, {
-    "id" : "87",
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
     "type" : "owl:Class"
   }, {
     "id" : "32",
     "type" : "owl:Class"
   }, {
-    "id" : "65",
+    "id" : "64",
     "type" : "owl:Class"
   }, {
     "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "70",
+    "id" : "69",
     "type" : "owl:Class"
   }, {
     "id" : "116",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "60",
     "type" : "owl:Class"
   }, {
-    "id" : "61",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
     "id" : "1",
@@ -130,13 +130,13 @@
     "id" : "130",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "93",
+    "id" : "94",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "86",
+    "id" : "85",
     "type" : "owl:Class"
   }, {
-    "id" : "67",
+    "id" : "66",
     "type" : "rdfs:Literal"
   }, {
     "id" : "28",
@@ -148,7 +148,7 @@
     "id" : "103",
     "type" : "owl:Class"
   }, {
-    "id" : "85",
+    "id" : "84",
     "type" : "rdfs:Literal"
   }, {
     "id" : "20",
@@ -178,16 +178,16 @@
     "id" : "48",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "56",
+    "id" : "54",
     "type" : "rdfs:Literal"
   }, {
     "id" : "43",
     "type" : "owl:Class"
   }, {
-    "id" : "78",
+    "id" : "77",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "80",
+    "id" : "79",
     "type" : "rdfs:Literal"
   }, {
     "id" : "117",
@@ -196,7 +196,7 @@
     "id" : "110",
     "type" : "owl:Class"
   }, {
-    "id" : "98",
+    "id" : "92",
     "type" : "owl:Class"
   }, {
     "id" : "12",
@@ -205,7 +205,7 @@
     "id" : "15",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "73",
+    "id" : "72",
     "type" : "rdfs:Literal"
   }, {
     "id" : "3",
@@ -217,7 +217,7 @@
     "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "96",
+    "id" : "97",
     "type" : "rdfs:Literal"
   }, {
     "id" : "139",
@@ -229,7 +229,7 @@
     "id" : "7",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "75",
+    "id" : "74",
     "type" : "rdfs:Literal"
   }, {
     "id" : "163",
@@ -241,10 +241,10 @@
     "id" : "105",
     "type" : "owl:Class"
   }, {
-    "id" : "62",
+    "id" : "61",
     "type" : "owl:Class"
   }, {
-    "id" : "51",
+    "id" : "50",
     "type" : "owl:Class"
   }, {
     "id" : "22",
@@ -256,7 +256,7 @@
     "id" : "35",
     "type" : "owl:Class"
   }, {
-    "id" : "64",
+    "id" : "63",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -344,7 +344,7 @@
       "undefined" : "PCD Document"
     },
     "attributes" : [ "external" ],
-    "id" : "58",
+    "id" : "56",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Survey",
@@ -358,8 +358,8 @@
       "undefined" : "Survey Event"
     },
     "attributes" : [ "external" ],
-    "id" : "59",
-    "superClasses" : [ "60" ]
+    "id" : "57",
+    "superClasses" : [ "58" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -371,9 +371,9 @@
       "IRI-based" : "DocumentInteraction",
       "undefined" : "Document Interaction"
     },
-    "subClasses" : [ "61", "62", "63" ],
+    "subClasses" : [ "60", "61", "62" ],
     "attributes" : [ "external" ],
-    "id" : "54"
+    "id" : "59"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -385,7 +385,7 @@
       "IRI-based" : "PhysicalObject",
       "undefined" : "Physical Object"
     },
-    "subClasses" : [ "64", "65" ],
+    "subClasses" : [ "63", "64" ],
     "attributes" : [ "external" ],
     "id" : "47",
     "superClasses" : [ "9" ]
@@ -415,7 +415,7 @@
       "undefined" : "End of Life Event"
     },
     "attributes" : [ "external" ],
-    "id" : "68",
+    "id" : "67",
     "superClasses" : [ "10" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Renewal",
@@ -429,8 +429,8 @@
       "undefined" : "Renewal Event"
     },
     "attributes" : [ "external" ],
-    "id" : "69",
-    "superClasses" : [ "70" ]
+    "id" : "68",
+    "superClasses" : [ "69" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Inspections",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -443,8 +443,8 @@
       "undefined" : "Inspection Event"
     },
     "attributes" : [ "external" ],
-    "id" : "71",
-    "superClasses" : [ "60" ]
+    "id" : "70",
+    "superClasses" : [ "58" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Internal",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -471,7 +471,7 @@
       "undefined" : "Sharing Status to External Party"
     },
     "attributes" : [ "external" ],
-    "id" : "76",
+    "id" : "75",
     "superClasses" : [ "39" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Maintain",
@@ -484,9 +484,9 @@
       "IRI-based" : "Maintain",
       "undefined" : "Maintain Event"
     },
-    "subClasses" : [ "59", "81", "71", "82" ],
+    "subClasses" : [ "57", "80", "70", "81" ],
     "attributes" : [ "external" ],
-    "id" : "60",
+    "id" : "58",
     "superClasses" : [ "10" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Documentation",
@@ -527,7 +527,7 @@
       "IRI-based" : "SharedToSpecific",
       "undefined" : "Sharing Status Specific"
     },
-    "subClasses" : [ "86", "87", "76" ],
+    "subClasses" : [ "85", "86", "75" ],
     "attributes" : [ "external" ],
     "id" : "39",
     "superClasses" : [ "40" ]
@@ -540,7 +540,7 @@
     },
     "subClasses" : [ "6" ],
     "attributes" : [ "external" ],
-    "id" : "88"
+    "id" : "87"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#SharingStatus",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -567,8 +567,8 @@
       "undefined" : "Maintenance Event"
     },
     "attributes" : [ "external" ],
-    "id" : "82",
-    "superClasses" : [ "60" ]
+    "id" : "81",
+    "superClasses" : [ "58" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Operations",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -581,8 +581,8 @@
       "undefined" : "Operations Event"
     },
     "attributes" : [ "external" ],
-    "id" : "81",
-    "superClasses" : [ "60" ]
+    "id" : "80",
+    "superClasses" : [ "58" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Creation",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -595,8 +595,8 @@
       "undefined" : "Creation"
     },
     "attributes" : [ "external" ],
-    "id" : "63",
-    "superClasses" : [ "54" ]
+    "id" : "62",
+    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#RepresentationInformationDocument",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -609,7 +609,7 @@
       "undefined" : "Representation Information Document"
     },
     "attributes" : [ "external" ],
-    "id" : "91"
+    "id" : "90"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#SharedToInternalPerson",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -622,7 +622,7 @@
       "undefined" : "Sharing Status to Internal Person"
     },
     "attributes" : [ "external" ],
-    "id" : "87",
+    "id" : "86",
     "superClasses" : [ "39" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#AIM",
@@ -645,7 +645,7 @@
       "IRI-based" : "Zone"
     },
     "attributes" : [ "external" ],
-    "id" : "65",
+    "id" : "64",
     "superClasses" : [ "47" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#AlphanumericalInformation",
@@ -672,9 +672,9 @@
       "IRI-based" : "Renew",
       "undefined" : "Renew Event"
     },
-    "subClasses" : [ "69", "103" ],
+    "subClasses" : [ "68", "103" ],
     "attributes" : [ "external" ],
-    "id" : "70",
+    "id" : "69",
     "superClasses" : [ "10" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#CSV",
@@ -687,6 +687,20 @@
     "attributes" : [ "external" ],
     "id" : "116",
     "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#StatusChange",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A document interaction where the status of a document is changed."
+    },
+    "label" : {
+      "IRI-based" : "StatusChange",
+      "undefined" : "Status Change"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#CopyInOriginalFormat",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -701,20 +715,6 @@
     "attributes" : [ "external" ],
     "id" : "17"
   }, {
-    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#StatusChange",
-    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "A document interaction where the status of a document is changed."
-    },
-    "label" : {
-      "IRI-based" : "StatusChange",
-      "undefined" : "Status Change"
-    },
-    "attributes" : [ "external" ],
-    "id" : "61",
-    "superClasses" : [ "54" ]
-  }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Document",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "instances" : 0,
@@ -725,7 +725,7 @@
       "IRI-based" : "Document",
       "undefined" : "Document"
     },
-    "subClasses" : [ "58", "117", "0", "105", "110", "116", "2" ],
+    "subClasses" : [ "56", "117", "0", "105", "110", "116", "2" ],
     "attributes" : [ "external" ],
     "id" : "1",
     "superClasses" : [ "8" ]
@@ -740,7 +740,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "93",
+    "id" : "94",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -757,12 +757,12 @@
       "undefined" : "Sharing Status to Internal Group"
     },
     "attributes" : [ "external" ],
-    "id" : "86",
+    "id" : "85",
     "superClasses" : [ "39" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "67",
+    "id" : "66",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -808,11 +808,11 @@
     },
     "attributes" : [ "external" ],
     "id" : "103",
-    "superClasses" : [ "70" ]
+    "superClasses" : [ "69" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "85",
+    "id" : "84",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -878,7 +878,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "6",
-    "superClasses" : [ "88" ]
+    "superClasses" : [ "87" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
@@ -898,7 +898,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "56",
+    "id" : "54",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -920,14 +920,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "78",
+    "id" : "77",
     "label" : {
       "IRI-based" : "dateTime"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "80",
+    "id" : "79",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -966,7 +966,7 @@
       "undefined" : "Data Drop"
     },
     "attributes" : [ "external" ],
-    "id" : "98"
+    "id" : "92"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
@@ -984,7 +984,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "73",
+    "id" : "72",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1017,14 +1017,14 @@
       "IRI-based" : "Event",
       "undefined" : "Event"
     },
-    "subClasses" : [ "68", "60", "70", "37" ],
+    "subClasses" : [ "67", "58", "69", "37" ],
     "attributes" : [ "external" ],
     "id" : "10",
     "superClasses" : [ "8" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "96",
+    "id" : "97",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1055,7 +1055,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "75",
+    "id" : "74",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1100,8 +1100,8 @@
       "undefined" : "Edit"
     },
     "attributes" : [ "external" ],
-    "id" : "62",
-    "superClasses" : [ "54" ]
+    "id" : "61",
+    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://bag2.basisregistraties.overheid.nl/bag/def/Pand",
     "baseIri" : "https://bag2.basisregistraties.overheid.nl/bag/def",
@@ -1110,7 +1110,7 @@
       "IRI-based" : "Pand"
     },
     "attributes" : [ "external" ],
-    "id" : "51"
+    "id" : "50"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Shared",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -1161,7 +1161,7 @@
       "IRI-based" : "Element"
     },
     "attributes" : [ "external" ],
-    "id" : "64",
+    "id" : "63",
     "superClasses" : [ "47" ]
   } ],
   "property" : [ {
@@ -1216,58 +1216,58 @@
     "id" : "49",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "50",
+    "id" : "51",
     "type" : "owl:objectProperty"
   }, {
     "id" : "52",
     "type" : "owl:objectProperty"
   }, {
     "id" : "53",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "55",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "57",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "66",
+    "id" : "65",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "72",
+    "id" : "71",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "74",
+    "id" : "73",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "77",
+    "id" : "76",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "79",
+    "id" : "78",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "83",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "84",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "89",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "90",
+    "id" : "91",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "92",
+    "id" : "93",
     "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "94",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "97",
+    "id" : "98",
     "type" : "owl:objectProperty"
   }, {
     "id" : "99",
@@ -1373,7 +1373,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "146",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "147",
     "type" : "rdfs:SubClassOf"
@@ -1385,10 +1385,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "150",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "151",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "152",
     "type" : "owl:objectProperty"
@@ -1552,7 +1552,7 @@
     },
     "cardinality" : "1",
     "domain" : "6",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "5"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
@@ -1563,7 +1563,7 @@
     },
     "domain" : "12",
     "subproperty" : [ "13" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "11"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#storedAt",
@@ -1573,7 +1573,7 @@
       "IRI-based" : "storedAt"
     },
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "14"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasFileFormat",
@@ -1584,7 +1584,7 @@
     },
     "cardinality" : "1",
     "domain" : "17",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "16"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasDocumentDescription",
@@ -1594,27 +1594,27 @@
       "IRI-based" : "hasDocumentDescription"
     },
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "19"
   }, {
     "range" : "23",
     "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "21"
   }, {
     "range" : "23",
     "domain" : "25",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "24"
   }, {
     "range" : "23",
     "domain" : "28",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "27"
   }, {
     "range" : "23",
     "domain" : "30",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "29"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasFork",
@@ -1624,17 +1624,17 @@
       "IRI-based" : "hasFork"
     },
     "domain" : "32",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "31"
   }, {
     "range" : "40",
     "domain" : "39",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "38"
   }, {
     "range" : "10",
     "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "41"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasDocumentationType",
@@ -1645,17 +1645,17 @@
     },
     "superproperty" : [ "11" ],
     "domain" : "1",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "13"
   }, {
     "range" : "40",
     "domain" : "43",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "42"
   }, {
     "range" : "40",
     "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "44"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasBotLongName",
@@ -1665,8 +1665,18 @@
       "IRI-based" : "hasBotLongName"
     },
     "domain" : "47",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "46"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#locatedAt",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "locatedAt"
+    },
+    "domain" : "32",
+    "attributes" : [ "external", "object" ],
+    "id" : "49"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasSubEvent",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -1675,18 +1685,8 @@
       "IRI-based" : "hasSubEvent"
     },
     "domain" : "10",
-    "attributes" : [ "object", "external" ],
-    "id" : "49"
-  }, {
-    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#locatedAt",
-    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "51",
-    "label" : {
-      "IRI-based" : "locatedAt"
-    },
-    "domain" : "32",
-    "attributes" : [ "object", "external" ],
-    "id" : "50"
+    "attributes" : [ "external", "object" ],
+    "id" : "51"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#partOf",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -1695,28 +1695,18 @@
       "IRI-based" : "partOf"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "52"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss/hasResponsibleActor",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "6",
-    "label" : {
-      "IRI-based" : "hasResponsibleActor"
-    },
-    "domain" : "54",
-    "attributes" : [ "object", "external" ],
-    "id" : "53"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasBotDescription",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "56",
+    "range" : "54",
     "label" : {
       "IRI-based" : "hasBotDescription"
     },
     "domain" : "47",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "55"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "53"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#canAccess",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -1725,60 +1715,60 @@
       "IRI-based" : "canAccess"
     },
     "domain" : "6",
-    "attributes" : [ "object", "external" ],
-    "id" : "57"
+    "attributes" : [ "external", "object" ],
+    "id" : "55"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasGuid",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "67",
+    "range" : "66",
     "label" : {
       "IRI-based" : "hasGuid"
     },
     "domain" : "47",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "66"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "65"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
     "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "73",
+    "range" : "72",
     "label" : {
       "IRI-based" : "topDataProperty"
     },
     "domain" : "12",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "72"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "71"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasRole",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "75",
+    "range" : "74",
     "label" : {
       "IRI-based" : "hasRole"
     },
     "cardinality" : "1",
     "domain" : "6",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "74"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "73"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#endedAt",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "78",
+    "range" : "77",
     "label" : {
       "IRI-based" : "endedAt"
     },
     "maxCardinality" : "1",
     "domain" : "10",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "77"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "76"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#copyStoredAt",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "80",
+    "range" : "79",
     "label" : {
       "IRI-based" : "copyStoredAt"
     },
     "domain" : "17",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "79"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "78"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasStatus",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -1788,19 +1778,19 @@
     },
     "cardinality" : "1",
     "domain" : "1",
-    "attributes" : [ "object", "external" ],
-    "id" : "83"
+    "attributes" : [ "external", "object" ],
+    "id" : "82"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasEmailAddress",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "85",
+    "range" : "84",
     "label" : {
       "IRI-based" : "hasEmailAddress"
     },
     "minCardinality" : "1",
     "domain" : "6",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "84"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "83"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasContentType",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -1811,30 +1801,40 @@
     "maxCardinality" : "3",
     "minCardinality" : "1",
     "domain" : "1",
-    "attributes" : [ "object", "external" ],
-    "id" : "89"
+    "attributes" : [ "external", "object" ],
+    "id" : "88"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasRepresentationDocumentation",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "91",
+    "range" : "90",
     "label" : {
       "IRI-based" : "hasRepresentationDocumentation"
     },
     "minCardinality" : "1",
     "domain" : "1",
-    "attributes" : [ "object", "external" ],
-    "id" : "90"
+    "attributes" : [ "external", "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/ddPartOf",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "ddPartOf"
+    },
+    "domain" : "92",
+    "attributes" : [ "external", "object" ],
+    "id" : "91"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasModelName",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "93",
+    "range" : "94",
     "label" : {
       "IRI-based" : "hasModelName"
     },
     "cardinality" : "1",
     "domain" : "32",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "92"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "93"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#involves",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -1844,18 +1844,18 @@
     },
     "minCardinality" : "1",
     "domain" : "10",
-    "attributes" : [ "object", "external" ],
-    "id" : "94"
+    "attributes" : [ "external", "object" ],
+    "id" : "95"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasUniqueIdentifier",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "96",
+    "range" : "97",
     "label" : {
       "IRI-based" : "hasUniqueIdentifier"
     },
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "95"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "96"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#relatesToEvent",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -1863,13 +1863,13 @@
     "label" : {
       "IRI-based" : "relatesToEvent"
     },
-    "domain" : "98",
-    "attributes" : [ "object", "external" ],
-    "id" : "97"
+    "domain" : "92",
+    "attributes" : [ "external", "object" ],
+    "id" : "98"
   }, {
-    "range" : "59",
-    "domain" : "71",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "57",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "99"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasSharingStatus",
@@ -1879,47 +1879,47 @@
       "IRI-based" : "hasSharingStatus"
     },
     "domain" : "9",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "100"
   }, {
-    "range" : "81",
-    "domain" : "71",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "80",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "101"
   }, {
-    "range" : "82",
-    "domain" : "71",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "81",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "102"
   }, {
     "range" : "105",
-    "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "104"
   }, {
     "range" : "0",
-    "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "106"
   }, {
     "range" : "4",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "107"
   }, {
     "range" : "105",
     "domain" : "0",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "108"
   }, {
-    "range" : "58",
+    "range" : "56",
     "domain" : "110",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "109"
   }, {
     "range" : "105",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "111"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasCreationSoftwareVersion",
@@ -1929,67 +1929,67 @@
       "IRI-based" : "hasCreationSoftwareVersion"
     },
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "112"
   }, {
     "range" : "105",
     "domain" : "110",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "114"
   }, {
     "range" : "0",
     "domain" : "110",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "115"
   }, {
-    "range" : "58",
+    "range" : "56",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "118"
   }, {
     "range" : "110",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "119"
   }, {
     "range" : "0",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "120"
   }, {
-    "range" : "58",
+    "range" : "56",
     "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "121"
   }, {
     "range" : "110",
     "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "122"
   }, {
     "range" : "105",
     "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "123"
   }, {
     "range" : "0",
     "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "124"
   }, {
     "range" : "30",
     "domain" : "28",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "125"
   }, {
     "range" : "2",
     "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "126"
   }, {
     "range" : "30",
     "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "127"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasEventDescription",
@@ -1999,7 +1999,7 @@
       "IRI-based" : "hasEventDescription"
     },
     "domain" : "10",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "128"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#occurredAt",
@@ -2009,8 +2009,8 @@
       "IRI-based" : "occurredAt"
     },
     "cardinality" : "1",
-    "domain" : "98",
-    "attributes" : [ "datatype", "external" ],
+    "domain" : "92",
+    "attributes" : [ "external", "datatype" ],
     "id" : "131"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasCopy",
@@ -2020,12 +2020,12 @@
       "IRI-based" : "hasCopy"
     },
     "domain" : "1",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "136"
   }, {
     "range" : "39",
     "domain" : "43",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "137"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#startedAt",
@@ -2036,68 +2036,58 @@
     },
     "cardinality" : "1",
     "domain" : "10",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "138"
   }, {
     "range" : "39",
     "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "140"
   }, {
-    "range" : "69",
+    "range" : "68",
     "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "141"
   }, {
-    "range" : "59",
-    "domain" : "82",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "57",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "142"
   }, {
-    "range" : "81",
-    "domain" : "82",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "80",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "143"
   }, {
     "range" : "43",
     "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "144"
   }, {
-    "range" : "59",
-    "domain" : "81",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "57",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "145"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss/ddPartOf",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "32",
-    "label" : {
-      "IRI-based" : "ddPartOf"
-    },
-    "domain" : "98",
-    "attributes" : [ "object", "external" ],
-    "id" : "146"
-  }, {
     "range" : "1",
-    "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "147"
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
   }, {
     "range" : "33",
     "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "148"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
   }, {
     "range" : "1",
     "domain" : "0",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "149"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
   }, {
     "range" : "1",
     "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "150"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasCopyFileName",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -2106,8 +2096,8 @@
       "IRI-based" : "hasCopyFileName"
     },
     "domain" : "17",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "151"
+    "attributes" : [ "external", "datatype" ],
+    "id" : "150"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#uploadedBy",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -2116,23 +2106,33 @@
       "IRI-based" : "uploadedBy"
     },
     "cardinality" : "1",
-    "domain" : "98",
-    "attributes" : [ "object", "external" ],
+    "domain" : "92",
+    "attributes" : [ "external", "object" ],
+    "id" : "151"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/hasResponsibleActor",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasResponsibleActor"
+    },
+    "domain" : "59",
+    "attributes" : [ "external", "object" ],
     "id" : "152"
   }, {
     "range" : "33",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "153"
   }, {
     "range" : "33",
     "domain" : "34",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "154"
   }, {
-    "range" : "70",
+    "range" : "69",
     "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "155"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasFileName",
@@ -2143,7 +2143,7 @@
     },
     "cardinality" : "1",
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "156"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#relatesToPhysicalObject",
@@ -2153,27 +2153,27 @@
       "IRI-based" : "relatesToPhysicalObject"
     },
     "domain" : "8",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "157"
   }, {
     "range" : "8",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "158"
   }, {
     "range" : "2",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "159"
   }, {
-    "range" : "70",
-    "domain" : "69",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "69",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "160"
   }, {
     "range" : "8",
     "domain" : "10",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "161"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasPreservationUntilDate",
@@ -2184,12 +2184,12 @@
     },
     "cardinality" : "1",
     "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "162"
   }, {
     "range" : "2",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "164"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#isForkOf",
@@ -2199,57 +2199,57 @@
       "IRI-based" : "isForkOf"
     },
     "domain" : "32",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "165"
   }, {
     "range" : "10",
-    "domain" : "68",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "167"
   }, {
-    "range" : "88",
+    "range" : "87",
     "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "168"
   }, {
     "range" : "10",
-    "domain" : "70",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "169"
   }, {
     "range" : "10",
-    "domain" : "60",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "170"
   }, {
     "range" : "39",
-    "domain" : "86",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "171"
   }, {
     "range" : "39",
-    "domain" : "76",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "172"
   }, {
     "range" : "39",
-    "domain" : "87",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "173"
   }, {
-    "range" : "70",
+    "range" : "69",
     "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "174"
   }, {
-    "range" : "60",
-    "domain" : "68",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "58",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "175"
   }, {
-    "range" : "70",
-    "domain" : "68",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "69",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "176"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#concernsDocument",
@@ -2259,115 +2259,105 @@
       "IRI-based" : "concernsDocument"
     },
     "cardinality" : "1",
-    "domain" : "54",
-    "attributes" : [ "object", "external" ],
+    "domain" : "59",
+    "attributes" : [ "external", "object" ],
     "id" : "177"
   }, {
-    "range" : "70",
-    "domain" : "60",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "69",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "178"
   }, {
     "range" : "28",
     "domain" : "25",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "179"
   }, {
     "range" : "22",
     "domain" : "25",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "180"
   }, {
     "range" : "30",
     "domain" : "25",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "181"
   }, {
     "range" : "22",
     "domain" : "28",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "182"
   }, {
-    "range" : "68",
+    "range" : "67",
     "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "183"
   }, {
-    "range" : "60",
+    "range" : "58",
     "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "184"
   }, {
-    "range" : "60",
-    "domain" : "81",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "58",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "185"
   }, {
-    "range" : "60",
-    "domain" : "59",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "58",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "186"
   }, {
-    "range" : "60",
-    "domain" : "82",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "58",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "187"
   }, {
-    "range" : "60",
-    "domain" : "71",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "58",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "188"
   }, {
     "range" : "47",
-    "domain" : "65",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "189"
   }, {
     "range" : "47",
-    "domain" : "64",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "190"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#contains",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "54",
+    "range" : "59",
     "label" : {
       "IRI-based" : "contains"
     },
     "minCardinality" : "1",
-    "domain" : "98",
-    "attributes" : [ "object", "external" ],
+    "domain" : "92",
+    "attributes" : [ "external", "object" ],
     "id" : "191"
   }, {
     "range" : "9",
     "domain" : "47",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "192"
   }, {
     "range" : "9",
     "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "193"
   }, {
-    "range" : "54",
-    "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "59",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "194"
   }, {
-    "range" : "54",
-    "domain" : "62",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "59",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "195"
-  }, {
-    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasCreationSoftware",
-    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
-    "range" : "135",
-    "label" : {
-      "IRI-based" : "hasCreationSoftware"
-    },
-    "domain" : "1",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "196"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasBotName",
     "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
@@ -2376,22 +2366,32 @@
       "IRI-based" : "hasBotName"
     },
     "domain" : "47",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
+    "id" : "196"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasCreationSoftware",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "hasCreationSoftware"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
     "id" : "197"
   }, {
-    "range" : "54",
-    "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "59",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "198"
   }, {
     "range" : "1",
     "domain" : "110",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "199"
   }, {
     "range" : "1",
     "domain" : "105",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "200"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasPreviousVersion",
@@ -2401,12 +2401,12 @@
       "IRI-based" : "hasPreviousVersion"
     },
     "domain" : "1",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "201"
   }, {
     "range" : "1",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "202"
   }, {
     "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasPhoneNumber",
@@ -2417,12 +2417,12 @@
     },
     "minCardinality" : "1",
     "domain" : "6",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "203"
   }, {
     "range" : "1",
     "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "204"
   } ]
 }

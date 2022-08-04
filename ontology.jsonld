@@ -273,6 +273,21 @@
   "@id" : "https://bag2.basisregistraties.overheid.nl/bag/def/Pand",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
+  "@id" : "https://chielvanderpas.github.io/ddss-ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Chiel van der Pas"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "This ontology describes how data that has to be stored for a longer period of time within the built environment should be structured. The ontology is part of the Durable Data Storage System project, which is developed as part of a graduation thesis of the MSc. Construction Management and Engineering at Eindhoven University of Technology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DDSS Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://w3id.org/bot-0.3.2"
+  } ]
+}, {
   "@id" : "https://chielvanderpas.github.io/ddss-ontology/#AIM",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -1245,22 +1260,7 @@
     "@id" : "https://chielvanderpas.github.io/ddss-ontology/#Actor"
   } ]
 }, {
-  "@id" : "https://github.com/chielvanderpas/ddss",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/terms/creator" : [ {
-    "@value" : "Chiel van der Pas"
-  } ],
-  "http://purl.org/dc/terms/description" : [ {
-    "@value" : "This ontology describes how data that has to be stored for a longer period of time within the built environment should be structured. The ontology is part of the Durable Data Storage System project, which is developed as part of a graduation thesis of the MSc. Construction Management and Engineering at Eindhoven University of Technology."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "DDSS Ontology"
-  } ],
-  "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "https://w3id.org/bot-0.3.2"
-  } ]
-}, {
-  "@id" : "https://github.com/chielvanderpas/ddss/ddPartOf",
+  "@id" : "https://chielvanderpas.github.io/ddss-ontology/ddPartOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://chielvanderpas.github.io/ddss-ontology/#DataDrop"
@@ -1269,7 +1269,7 @@
     "@id" : "https://chielvanderpas.github.io/ddss-ontology/#AIM"
   } ]
 }, {
-  "@id" : "https://github.com/chielvanderpas/ddss/hasResponsibleActor",
+  "@id" : "https://chielvanderpas.github.io/ddss-ontology/hasResponsibleActor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction"

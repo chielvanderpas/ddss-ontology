@@ -1,8 +1,8 @@
-<https://github.com/chielvanderpas/ddss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://github.com/chielvanderpas/ddss> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/bot-0.3.2> .
-<https://github.com/chielvanderpas/ddss> <http://purl.org/dc/terms/creator> "Chiel van der Pas" .
-<https://github.com/chielvanderpas/ddss> <http://purl.org/dc/terms/description> "This ontology describes how data that has to be stored for a longer period of time within the built environment should be structured. The ontology is part of the Durable Data Storage System project, which is developed as part of a graduation thesis of the MSc. Construction Management and Engineering at Eindhoven University of Technology." .
-<https://github.com/chielvanderpas/ddss> <http://www.w3.org/2000/01/rdf-schema#label> "DDSS Ontology" .
+<https://chielvanderpas.github.io/ddss-ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://chielvanderpas.github.io/ddss-ontology> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/bot-0.3.2> .
+<https://chielvanderpas.github.io/ddss-ontology> <http://purl.org/dc/terms/creator> "Chiel van der Pas" .
+<https://chielvanderpas.github.io/ddss-ontology> <http://purl.org/dc/terms/description> "This ontology describes how data that has to be stored for a longer period of time within the built environment should be structured. The ontology is part of the Durable Data Storage System project, which is developed as part of a graduation thesis of the MSc. Construction Management and Engineering at Eindhoven University of Technology." .
+<https://chielvanderpas.github.io/ddss-ontology> <http://www.w3.org/2000/01/rdf-schema#label> "DDSS Ontology" .
 # 
 # 
 # #################################################################
@@ -26,6 +26,16 @@
 # #
 # #################################################################
 # 
+# 
+# https://chielvanderpas.github.io/ddss-ontology/ddPartOf
+<https://chielvanderpas.github.io/ddss-ontology/ddPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://chielvanderpas.github.io/ddss-ontology/ddPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://chielvanderpas.github.io/ddss-ontology/#DataDrop> .
+<https://chielvanderpas.github.io/ddss-ontology/ddPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://chielvanderpas.github.io/ddss-ontology/#AIM> .
+# 
+# https://chielvanderpas.github.io/ddss-ontology/hasResponsibleActor
+<https://chielvanderpas.github.io/ddss-ontology/hasResponsibleActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://chielvanderpas.github.io/ddss-ontology/hasResponsibleActor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction> .
+<https://chielvanderpas.github.io/ddss-ontology/hasResponsibleActor> <http://www.w3.org/2000/01/rdf-schema#range> <https://chielvanderpas.github.io/ddss-ontology/#Actor> .
 # 
 # https://chielvanderpas.github.io/ddss-ontology/#canAccess
 <https://chielvanderpas.github.io/ddss-ontology/#canAccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -122,16 +132,6 @@
 <https://chielvanderpas.github.io/ddss-ontology/#uploadedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://chielvanderpas.github.io/ddss-ontology/#uploadedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://chielvanderpas.github.io/ddss-ontology/#DataDrop> .
 <https://chielvanderpas.github.io/ddss-ontology/#uploadedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://chielvanderpas.github.io/ddss-ontology/#Actor> .
-# 
-# https://github.com/chielvanderpas/ddss/ddPartOf
-<https://github.com/chielvanderpas/ddss/ddPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://github.com/chielvanderpas/ddss/ddPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://chielvanderpas.github.io/ddss-ontology/#DataDrop> .
-<https://github.com/chielvanderpas/ddss/ddPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://chielvanderpas.github.io/ddss-ontology/#AIM> .
-# 
-# https://github.com/chielvanderpas/ddss/hasResponsibleActor
-<https://github.com/chielvanderpas/ddss/hasResponsibleActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://github.com/chielvanderpas/ddss/hasResponsibleActor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction> .
-<https://github.com/chielvanderpas/ddss/hasResponsibleActor> <http://www.w3.org/2000/01/rdf-schema#range> <https://chielvanderpas.github.io/ddss-ontology/#Actor> .
 # 
 # 
 # 
