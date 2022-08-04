@@ -2,7 +2,7 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "undefined" ],
-    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/spec/", "https://bag2.basisregistraties.overheid.nl/bag/def", "https://github.com/chielvanderpas/ddss" ],
+    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://chielvanderpas.github.io/ddss-ontology/", "http://xmlns.com/foaf/spec/", "https://bag2.basisregistraties.overheid.nl/bag/def", "https://github.com/chielvanderpas/ddss" ],
     "iri" : "https://github.com/chielvanderpas/ddss",
     "author" : [ "Chiel van der Pas" ],
     "description" : {
@@ -22,979 +22,269 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "13",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "19",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "40",
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
     "type" : "owl:Class"
   }, {
     "id" : "54",
     "type" : "owl:Class"
   }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "55",
-    "type" : "owl:Class"
-  }, {
-    "id" : "46",
-    "type" : "owl:Class"
-  }, {
-    "id" : "60",
-    "type" : "owl:Class"
-  }, {
-    "id" : "62",
-    "type" : "owl:Class"
-  }, {
-    "id" : "57",
-    "type" : "owl:Class"
-  }, {
-    "id" : "18",
-    "type" : "owl:Class"
-  }, {
-    "id" : "65",
-    "type" : "owl:Class"
-  }, {
-    "id" : "38",
-    "type" : "owl:Class"
-  }, {
-    "id" : "35",
-    "type" : "owl:Class"
-  }, {
-    "id" : "70",
-    "type" : "owl:Class"
-  }, {
-    "id" : "71",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
-    "type" : "owl:Class"
-  }, {
-    "id" : "74",
-    "type" : "owl:Class"
-  }, {
-    "id" : "77",
-    "type" : "owl:Class"
-  }, {
-    "id" : "37",
-    "type" : "owl:Class"
-  }, {
-    "id" : "78",
-    "type" : "owl:Class"
-  }, {
-    "id" : "79",
-    "type" : "owl:Class"
-  }, {
-    "id" : "91",
-    "type" : "owl:Class"
-  }, {
-    "id" : "29",
-    "type" : "owl:Class"
-  }, {
-    "id" : "93",
-    "type" : "owl:Class"
-  }, {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
-    "id" : "66",
-    "type" : "owl:Class"
-  }, {
-    "id" : "103",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
-    "id" : "119",
-    "type" : "owl:Class"
-  }, {
-    "id" : "5",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "56",
-    "type" : "owl:Class"
-  }, {
-    "id" : "125",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "126",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "14",
-    "type" : "owl:Class"
-  }, {
-    "id" : "22",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "69",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "85",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "128",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "110",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "4",
-    "type" : "owl:Class"
-  }, {
-    "id" : "49",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "83",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "130",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "134",
-    "type" : "owl:Class"
-  }, {
-    "id" : "108",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "76",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "81",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "58",
-    "type" : "owl:Class"
-  }, {
-    "id" : "96",
-    "type" : "owl:Class"
-  }, {
-    "id" : "133",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "129",
-    "type" : "owl:Class"
-  }, {
-    "id" : "27",
+    "id" : "47",
     "type" : "owl:Class"
   }, {
     "id" : "9",
     "type" : "owl:Class"
   }, {
-    "id" : "115",
+    "id" : "68",
     "type" : "owl:Class"
   }, {
-    "id" : "44",
+    "id" : "69",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "67",
+    "id" : "71",
     "type" : "owl:Class"
   }, {
-    "id" : "158",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "53",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "121",
+    "id" : "45",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
     "type" : "owl:Class"
   }, {
     "id" : "87",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "98",
     "type" : "owl:Class"
-  }, {
-    "id" : "64",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "24",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "136",
-    "type" : "rdfs:Literal"
   }, {
     "id" : "32",
     "type" : "owl:Class"
   }, {
-    "id" : "124",
+    "id" : "65",
     "type" : "owl:Class"
   }, {
-    "id" : "162",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "163",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "7",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "177",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "28",
     "type" : "owl:Class"
   }, {
     "id" : "30",
     "type" : "owl:Class"
   }, {
-    "id" : "89",
+    "id" : "103",
     "type" : "owl:Class"
   }, {
-    "id" : "90",
+    "id" : "85",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "92",
+    "id" : "135",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://github.com/chielvanderpas/ddss#Public",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The object is accessible by anyone."
-    },
-    "label" : {
-      "IRI-based" : "Public",
-      "undefined" : "Sharing Status Public"
-    },
-    "id" : "13",
-    "superClasses" : [ "14" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#SharedToSpecific",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The object can be accessed by specific (groups of) people."
-    },
-    "label" : {
-      "IRI-based" : "SharedToSpecific",
-      "undefined" : "Sharing Status Specific"
-    },
-    "subClasses" : [ "16", "17", "18" ],
-    "id" : "15",
-    "superClasses" : [ "14" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#IFC2x3",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "IFC2x3"
-    },
-    "id" : "19",
-    "superClasses" : [ "20" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#AIM",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Asset Information Model. A model that contains all information related to a certain asset in the built environment as defined by ISO 19650."
-    },
-    "label" : {
-      "IRI-based" : "AIM",
-      "undefined" : "AIM"
-    },
-    "id" : "40"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#RepresentationInformationDocument",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Information that describes how other information is structured. Required by the OAIS standard for durable data storage."
-    },
-    "label" : {
-      "IRI-based" : "RepresentationInformationDocument",
-      "undefined" : "Representation Information Document"
-    },
-    "id" : "54"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#DataDrop",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "A package of information submitted to an AIM at a single point in time, as described by ISO 19650. A data drop is usually trigerred by an event."
-    },
-    "label" : {
-      "IRI-based" : "DataDrop",
-      "undefined" : "Data Drop"
-    },
-    "id" : "51"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Acquire",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The acquistion of an asset, the transfer of an asset from the construction to the operational phase, or the transfer of ownership of an asset."
-    },
-    "label" : {
-      "IRI-based" : "Acquire",
-      "undefined" : "Acquire Event"
-    },
-    "id" : "55",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#DocumentInteraction",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "An interaction between an actor (person) and a document. There are multiple types of document interactions. Every document interaction is part of a data drop."
-    },
-    "label" : {
-      "IRI-based" : "DocumentInteraction",
-      "undefined" : "Document Interaction"
-    },
-    "subClasses" : [ "56", "57", "58" ],
-    "id" : "46"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#DocumentationType",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "DocumentationType",
-      "undefined" : "Documentation Type"
-    },
-    "id" : "60"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#CopyInOriginalFormat",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The copy of a document in its original file format. This copy in original format might help restoring data when something went wrong with transforming the document in question into an open file format."
-    },
-    "label" : {
-      "IRI-based" : "CopyInOriginalFormat",
-      "undefined" : "Copy in Original Format"
-    },
-    "id" : "62"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#StatusChange",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "A document interaction where the status of a document is changed."
-    },
-    "label" : {
-      "IRI-based" : "StatusChange",
-      "undefined" : "Status Change"
-    },
-    "id" : "57",
-    "superClasses" : [ "46" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#SharedToInternalPerson",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The object is shared to a specific internal person."
-    },
-    "label" : {
-      "IRI-based" : "SharedToInternalPerson",
-      "undefined" : "Sharing Status to Internal Person"
-    },
-    "id" : "18",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Operations",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Any event that relates to the operation of a building, such as cleaning, waste management, catering, etc."
-    },
-    "label" : {
-      "IRI-based" : "Operations",
-      "undefined" : "Operations Event"
-    },
-    "id" : "65",
-    "superClasses" : [ "66" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Renew",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Major changes or adaptions of an asset."
-    },
-    "label" : {
-      "IRI-based" : "Renew",
-      "undefined" : "Renew Event"
-    },
-    "subClasses" : [ "67", "37" ],
-    "id" : "38",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "http://xmlns.com/foaf/spec/#Person",
-    "baseIri" : "http://xmlns.com/foaf/spec/",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Person"
-    },
-    "subClasses" : [ "2" ],
-    "attributes" : [ "external" ],
-    "id" : "35"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#PCD",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "PCD",
-      "undefined" : "PCD Document"
-    },
-    "id" : "70",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#WorkInProgress",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The document is being worked on, and is only accessible to those working on it."
-    },
-    "label" : {
-      "IRI-based" : "WorkInProgress",
-      "undefined" : "Work In Progress Status"
-    },
-    "id" : "71",
-    "superClasses" : [ "9" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#IFC",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "IFC",
-      "undefined" : "IFC Document"
-    },
-    "subClasses" : [ "19", "27" ],
-    "id" : "20",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Internal",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The object is only shared to the internal team working on it."
-    },
-    "label" : {
-      "IRI-based" : "Internal",
-      "undefined" : "Sharing Status Internal"
-    },
-    "id" : "74",
-    "superClasses" : [ "14" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#PDF",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#PDF",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "instances" : 0,
     "label" : {
       "IRI-based" : "PDF",
       "undefined" : "PDF Document"
     },
-    "id" : "77",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Refurbish",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Large repairs and reparations, improvements, and upgrades to maintain an asset in its optimal state."
-    },
-    "label" : {
-      "IRI-based" : "Refurbish",
-      "undefined" : "Refurbish Event"
-    },
-    "id" : "37",
-    "superClasses" : [ "38" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#AlphanumericalInformation",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Alphanumerical Information on a building or part of a building, as described by ISO 19650."
-    },
-    "label" : {
-      "IRI-based" : "AlphanumericalInformation",
-      "undefined" : "Alphanumerical Information"
-    },
-    "id" : "78",
-    "superClasses" : [ "44" ]
-  }, {
-    "iri" : "https://w3id.org/bot#Zone",
-    "baseIri" : "https://w3id.org/bot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Zone"
-    },
     "attributes" : [ "external" ],
-    "id" : "79",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Documentation",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Information describing (part of) a building as described by ISO 19650."
-    },
-    "label" : {
-      "IRI-based" : "Documentation",
-      "undefined" : "Documentation"
-    },
-    "id" : "91",
-    "superClasses" : [ "44" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#PhysicalObject",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Any object that is present in the real world. Here defined by the BOT ontology. Objects do not have to be physical (i.e., a space can be a physical object) but it does need to have a geometrical shape in the real world."
-    },
-    "label" : {
-      "IRI-based" : "PhysicalObject",
-      "undefined" : "Physical Object"
-    },
-    "subClasses" : [ "92", "79" ],
-    "id" : "29",
-    "superClasses" : [ "30" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#EndOfLife",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The disposal, decommissioning, demolition, or tranfer of ownership of an asset."
-    },
-    "label" : {
-      "IRI-based" : "EndOfLife",
-      "undefined" : "End of Life Event"
-    },
-    "id" : "93",
+    "id" : "0",
     "superClasses" : [ "1" ]
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#SharedToExternalParty",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The object is shared to a specific external party."
-    },
-    "label" : {
-      "IRI-based" : "SharedToExternalParty",
-      "undefined" : "Sharing Status to External Party"
-    },
-    "id" : "17",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Maintain",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Any type of changes or inspections of an asset during its lifespan."
-    },
-    "label" : {
-      "IRI-based" : "Maintain",
-      "undefined" : "Maintain Event"
-    },
-    "subClasses" : [ "90", "65", "96", "89" ],
-    "id" : "66",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#JPEG",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#IFC",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "JPEG",
-      "undefined" : "Jpeg Document"
+      "IRI-based" : "IFC",
+      "undefined" : "IFC Document"
     },
-    "id" : "103",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Event",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Any event that relates to an asset, and about which information should be stored within an AIM. An event can be planned (i.e., the delivery of a building) or unplanned (i.e., damage to the asset)."
-    },
-    "label" : {
-      "IRI-based" : "Event",
-      "undefined" : "Event"
-    },
-    "subClasses" : [ "55", "66", "93", "38" ],
-    "id" : "1",
-    "superClasses" : [ "32" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Archived",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "An 'archived' document has been published, but is no longer relevant. It cannot be changed."
-    },
-    "label" : {
-      "IRI-based" : "Archived",
-      "undefined" : "Archived Status"
-    },
-    "id" : "119",
-    "superClasses" : [ "9" ]
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "5",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Creation",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "A document interaction where a new document is created."
-    },
-    "label" : {
-      "IRI-based" : "Creation",
-      "undefined" : "Creation"
-    },
-    "id" : "56",
-    "superClasses" : [ "46" ]
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "125",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "126",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#SharingStatus",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The people or parties who can access a specific object."
-    },
-    "label" : {
-      "IRI-based" : "SharingStatus",
-      "undefined" : "Sharing Status"
-    },
-    "subClasses" : [ "74", "13", "15" ],
-    "id" : "14"
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "22",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "69",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "85",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "128",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "110",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Document",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "A digital document which contains information and which can be shared with others in the form of a document."
-    },
-    "label" : {
-      "IRI-based" : "Document",
-      "undefined" : "Document"
-    },
-    "subClasses" : [ "77", "70", "115", "20", "103", "98", "129" ],
-    "id" : "4",
-    "superClasses" : [ "32" ]
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "49",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "83",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "130",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#GeometricalInformation",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Information describing the geometry of a building or part of a building, as described by ISO 19650. Usually stored in the form of an IFC model or other BIM model."
-    },
-    "label" : {
-      "IRI-based" : "GeometricalInformation",
-      "undefined" : "Geometrical Information"
-    },
-    "id" : "134",
-    "superClasses" : [ "44" ]
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "108",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "76",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "81",
-    "label" : {
-      "IRI-based" : "dateTime"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Edit",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "A document interaction where a new version of an existing document is uploaded."
-    },
-    "label" : {
-      "IRI-based" : "Edit",
-      "undefined" : "Edit"
-    },
-    "id" : "58",
-    "superClasses" : [ "46" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Maintenance",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Planned and unplanned maintenance on an asset."
-    },
-    "label" : {
-      "IRI-based" : "Maintenance",
-      "undefined" : "Maintenance Event"
-    },
-    "id" : "96",
-    "superClasses" : [ "66" ]
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "133",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#TXT",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "TXT",
-      "undefined" : "Txt Document"
-    },
-    "id" : "129",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#IFC4",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "IFC4"
-    },
-    "id" : "27",
-    "superClasses" : [ "20" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Status",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The status of a document as described by ISO 19650."
-    },
-    "label" : {
-      "IRI-based" : "Status",
-      "undefined" : "Status"
-    },
-    "subClasses" : [ "121", "71", "119", "124" ],
-    "id" : "9"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#CSV",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "CSV",
-      "undefined" : "CSV Document"
-    },
-    "id" : "115",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#ContentType",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "The type of content that a document contains, as defined by ISO 19650."
-    },
-    "label" : {
-      "IRI-based" : "ContentType",
-      "undefined" : "Content Type"
-    },
-    "subClasses" : [ "134", "78", "91" ],
-    "id" : "44"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "11",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Renewal",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Changes to an asset where parts of the building, or functions of the building, significantly change."
-    },
-    "label" : {
-      "IRI-based" : "Renewal",
-      "undefined" : "Renewal Event"
-    },
-    "id" : "67",
-    "superClasses" : [ "38" ]
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "158",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "53",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Published",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "A published document can be accessed by others, and is final. In general it will not be updated."
-    },
-    "label" : {
-      "IRI-based" : "Published",
-      "undefined" : "Published Status"
-    },
-    "id" : "121",
-    "superClasses" : [ "9" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Actor",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "Any human being."
-    },
-    "label" : {
-      "IRI-based" : "Actor",
-      "undefined" : "Actor"
-    },
+    "subClasses" : [ "3", "4" ],
+    "attributes" : [ "external" ],
     "id" : "2",
-    "superClasses" : [ "35" ]
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "87",
-    "label" : {
-      "IRI-based" : "dateTime"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#PNG",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "PNG",
-      "undefined" : "PNG Document"
-    },
-    "id" : "98",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "64",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "24",
-    "label" : {
-      "IRI-based" : "dateTime"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "136",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#InformationObject",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#InformationObject",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "instances" : 0,
     "description" : {
       "undefined" : "An object that contains information about (part of) an asset."
@@ -1003,96 +293,62 @@
       "IRI-based" : "InformationObject",
       "undefined" : "Information Object"
     },
-    "subClasses" : [ "1", "4" ],
-    "id" : "32",
-    "superClasses" : [ "30" ]
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Shared",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "instances" : 0,
-    "description" : {
-      "undefined" : "A shared document can be accessed by others, but is still work in progress. New versions are to be expected."
-    },
-    "label" : {
-      "IRI-based" : "Shared",
-      "undefined" : "Shared Status"
-    },
-    "id" : "124",
+    "subClasses" : [ "1", "10" ],
+    "attributes" : [ "external" ],
+    "id" : "8",
     "superClasses" : [ "9" ]
   }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "162",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "163",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "7",
-    "label" : {
-      "IRI-based" : "dateTime"
-    }
-  }, {
-    "iri" : "https://bag2.basisregistraties.overheid.nl/bag/def/Pand",
-    "baseIri" : "https://bag2.basisregistraties.overheid.nl/bag/def",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#DocumentationType",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Pand"
+      "IRI-based" : "DocumentationType",
+      "undefined" : "Documentation Type"
     },
     "attributes" : [ "external" ],
-    "id" : "177"
+    "id" : "26"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#SharedToInternalGroup",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#ContentType",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "instances" : 0,
     "description" : {
-      "undefined" : "The object is shared to a specific internal group."
+      "undefined" : "The type of content that a document contains, as defined by ISO 19650."
     },
     "label" : {
-      "IRI-based" : "SharedToInternalGroup",
-      "undefined" : "Sharing Status to Internal Group"
+      "IRI-based" : "ContentType",
+      "undefined" : "Content Type"
     },
-    "id" : "16",
-    "superClasses" : [ "15" ]
+    "subClasses" : [ "34", "35", "36" ],
+    "attributes" : [ "external" ],
+    "id" : "33"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Object",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Acquire",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "instances" : 0,
     "description" : {
-      "undefined" : "Any object, either in the form of a physical object or an information object, that is part of the AIM in question."
+      "undefined" : "The acquistion of an asset, the transfer of an asset from the construction to the operational phase, or the transfer of ownership of an asset."
     },
     "label" : {
-      "IRI-based" : "Object",
-      "undefined" : "Object"
+      "IRI-based" : "Acquire",
+      "undefined" : "Acquire Event"
     },
-    "subClasses" : [ "29", "32" ],
-    "id" : "30"
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "10" ]
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Inspections",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#PCD",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "instances" : 0,
-    "description" : {
-      "undefined" : "Inspection of an asset where some aspect of a building is inspected, but not changed."
-    },
     "label" : {
-      "IRI-based" : "Inspections",
-      "undefined" : "Inspection Event"
+      "IRI-based" : "PCD",
+      "undefined" : "PCD Document"
     },
-    "id" : "89",
-    "superClasses" : [ "66" ]
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#Survey",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Survey",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "instances" : 0,
     "description" : {
       "undefined" : "Measuring and sureveying (part of) an asset."
@@ -1101,8 +357,802 @@
       "IRI-based" : "Survey",
       "undefined" : "Survey Event"
     },
-    "id" : "90",
-    "superClasses" : [ "66" ]
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "An interaction between an actor (person) and a document. There are multiple types of document interactions. Every document interaction is part of a data drop."
+    },
+    "label" : {
+      "IRI-based" : "DocumentInteraction",
+      "undefined" : "Document Interaction"
+    },
+    "subClasses" : [ "61", "62", "63" ],
+    "attributes" : [ "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Any object that is present in the real world. Here defined by the BOT ontology. Objects do not have to be physical (i.e., a space can be a physical object) but it does need to have a geometrical shape in the real world."
+    },
+    "label" : {
+      "IRI-based" : "PhysicalObject",
+      "undefined" : "Physical Object"
+    },
+    "subClasses" : [ "64", "65" ],
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Object",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Any object, either in the form of a physical object or an information object, that is part of the AIM in question."
+    },
+    "label" : {
+      "IRI-based" : "Object",
+      "undefined" : "Object"
+    },
+    "subClasses" : [ "8", "47" ],
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#EndOfLife",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The disposal, decommissioning, demolition, or tranfer of ownership of an asset."
+    },
+    "label" : {
+      "IRI-based" : "EndOfLife",
+      "undefined" : "End of Life Event"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Renewal",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Changes to an asset where parts of the building, or functions of the building, significantly change."
+    },
+    "label" : {
+      "IRI-based" : "Renewal",
+      "undefined" : "Renewal Event"
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Inspections",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Inspection of an asset where some aspect of a building is inspected, but not changed."
+    },
+    "label" : {
+      "IRI-based" : "Inspections",
+      "undefined" : "Inspection Event"
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Internal",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The object is only shared to the internal team working on it."
+    },
+    "label" : {
+      "IRI-based" : "Internal",
+      "undefined" : "Sharing Status Internal"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#SharedToExternalParty",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The object is shared to a specific external party."
+    },
+    "label" : {
+      "IRI-based" : "SharedToExternalParty",
+      "undefined" : "Sharing Status to External Party"
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Maintain",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Any type of changes or inspections of an asset during its lifespan."
+    },
+    "label" : {
+      "IRI-based" : "Maintain",
+      "undefined" : "Maintain Event"
+    },
+    "subClasses" : [ "59", "81", "71", "82" ],
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Documentation",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Information describing (part of) a building as described by ISO 19650."
+    },
+    "label" : {
+      "IRI-based" : "Documentation",
+      "undefined" : "Documentation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Archived",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "An 'archived' document has been published, but is no longer relevant. It cannot be changed."
+    },
+    "label" : {
+      "IRI-based" : "Archived",
+      "undefined" : "Archived Status"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#SharedToSpecific",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The object can be accessed by specific (groups of) people."
+    },
+    "label" : {
+      "IRI-based" : "SharedToSpecific",
+      "undefined" : "Sharing Status Specific"
+    },
+    "subClasses" : [ "86", "87", "76" ],
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/spec/#Person",
+    "baseIri" : "http://xmlns.com/foaf/spec/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "6" ],
+    "attributes" : [ "external" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#SharingStatus",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The people or parties who can access a specific object."
+    },
+    "label" : {
+      "IRI-based" : "SharingStatus",
+      "undefined" : "Sharing Status"
+    },
+    "subClasses" : [ "39", "43", "45" ],
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Maintenance",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Planned and unplanned maintenance on an asset."
+    },
+    "label" : {
+      "IRI-based" : "Maintenance",
+      "undefined" : "Maintenance Event"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Operations",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Any event that relates to the operation of a building, such as cleaning, waste management, catering, etc."
+    },
+    "label" : {
+      "IRI-based" : "Operations",
+      "undefined" : "Operations Event"
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Creation",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A document interaction where a new document is created."
+    },
+    "label" : {
+      "IRI-based" : "Creation",
+      "undefined" : "Creation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#RepresentationInformationDocument",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Information that describes how other information is structured. Required by the OAIS standard for durable data storage."
+    },
+    "label" : {
+      "IRI-based" : "RepresentationInformationDocument",
+      "undefined" : "Representation Information Document"
+    },
+    "attributes" : [ "external" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#SharedToInternalPerson",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The object is shared to a specific internal person."
+    },
+    "label" : {
+      "IRI-based" : "SharedToInternalPerson",
+      "undefined" : "Sharing Status to Internal Person"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#AIM",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Asset Information Model. A model that contains all information related to a certain asset in the built environment as defined by ISO 19650."
+    },
+    "label" : {
+      "IRI-based" : "AIM",
+      "undefined" : "AIM"
+    },
+    "attributes" : [ "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://w3id.org/bot#Zone",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Zone"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#AlphanumericalInformation",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Alphanumerical Information on a building or part of a building, as described by ISO 19650."
+    },
+    "label" : {
+      "IRI-based" : "AlphanumericalInformation",
+      "undefined" : "Alphanumerical Information"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Renew",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Major changes or adaptions of an asset."
+    },
+    "label" : {
+      "IRI-based" : "Renew",
+      "undefined" : "Renew Event"
+    },
+    "subClasses" : [ "69", "103" ],
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#CSV",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CSV",
+      "undefined" : "CSV Document"
+    },
+    "attributes" : [ "external" ],
+    "id" : "116",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#CopyInOriginalFormat",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The copy of a document in its original file format. This copy in original format might help restoring data when something went wrong with transforming the document in question into an open file format."
+    },
+    "label" : {
+      "IRI-based" : "CopyInOriginalFormat",
+      "undefined" : "Copy in Original Format"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#StatusChange",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A document interaction where the status of a document is changed."
+    },
+    "label" : {
+      "IRI-based" : "StatusChange",
+      "undefined" : "Status Change"
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Document",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A digital document which contains information and which can be shared with others in the form of a document."
+    },
+    "label" : {
+      "IRI-based" : "Document",
+      "undefined" : "Document"
+    },
+    "subClasses" : [ "58", "117", "0", "105", "110", "116", "2" ],
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#SharedToInternalGroup",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The object is shared to a specific internal group."
+    },
+    "label" : {
+      "IRI-based" : "SharedToInternalGroup",
+      "undefined" : "Sharing Status to Internal Group"
+    },
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Published",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A published document can be accessed by others, and is final. In general it will not be updated."
+    },
+    "label" : {
+      "IRI-based" : "Published",
+      "undefined" : "Published Status"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#WorkInProgress",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The document is being worked on, and is only accessible to those working on it."
+    },
+    "label" : {
+      "IRI-based" : "WorkInProgress",
+      "undefined" : "Work In Progress Status"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Refurbish",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Large repairs and reparations, improvements, and upgrades to maintain an asset in its optimal state."
+    },
+    "label" : {
+      "IRI-based" : "Refurbish",
+      "undefined" : "Refurbish Event"
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "133",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Actor",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Any human being."
+    },
+    "label" : {
+      "IRI-based" : "Actor",
+      "undefined" : "Actor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Public",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The object is accessible by anyone."
+    },
+    "label" : {
+      "IRI-based" : "Public",
+      "undefined" : "Sharing Status Public"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#TXT",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TXT",
+      "undefined" : "Txt Document"
+    },
+    "attributes" : [ "external" ],
+    "id" : "117",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#JPEG",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JPEG",
+      "undefined" : "Jpeg Document"
+    },
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#DataDrop",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A package of information submitted to an AIM at a single point in time, as described by ISO 19650. A data drop is usually trigerred by an event."
+    },
+    "label" : {
+      "IRI-based" : "DataDrop",
+      "undefined" : "Data Drop"
+    },
+    "attributes" : [ "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "12",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#IFC2x3",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IFC2x3"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Event",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Any event that relates to an asset, and about which information should be stored within an AIM. An event can be planned (i.e., the delivery of a building) or unplanned (i.e., damage to the asset)."
+    },
+    "label" : {
+      "IRI-based" : "Event",
+      "undefined" : "Event"
+    },
+    "subClasses" : [ "68", "60", "70", "37" ],
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "163",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#IFC4",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IFC4"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#PNG",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PNG",
+      "undefined" : "PNG Document"
+    },
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Edit",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A document interaction where a new version of an existing document is uploaded."
+    },
+    "label" : {
+      "IRI-based" : "Edit",
+      "undefined" : "Edit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://bag2.basisregistraties.overheid.nl/bag/def/Pand",
+    "baseIri" : "https://bag2.basisregistraties.overheid.nl/bag/def",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pand"
+    },
+    "attributes" : [ "external" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Shared",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A shared document can be accessed by others, but is still work in progress. New versions are to be expected."
+    },
+    "label" : {
+      "IRI-based" : "Shared",
+      "undefined" : "Shared Status"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#Status",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "The status of a document as described by ISO 19650."
+    },
+    "label" : {
+      "IRI-based" : "Status",
+      "undefined" : "Status"
+    },
+    "subClasses" : [ "22", "25", "28", "30" ],
+    "attributes" : [ "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#GeometricalInformation",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Information describing the geometry of a building or part of a building, as described by ISO 19650. Usually stored in the form of an IFC model or other BIM model."
+    },
+    "label" : {
+      "IRI-based" : "GeometricalInformation",
+      "undefined" : "Geometrical Information"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "33" ]
   }, {
     "iri" : "https://w3id.org/bot#Element",
     "baseIri" : "https://w3id.org/bot",
@@ -1111,132 +1161,120 @@
       "IRI-based" : "Element"
     },
     "attributes" : [ "external" ],
-    "id" : "92",
-    "superClasses" : [ "29" ]
+    "id" : "64",
+    "superClasses" : [ "47" ]
   } ],
   "property" : [ {
-    "id" : "0",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "3",
+    "id" : "5",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "6",
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "8",
-    "type" : "owl:objectProperty"
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
   }, {
-    "id" : "10",
-    "type" : "owl:objectProperty"
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "21",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "23",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "25",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "26",
+    "id" : "24",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "28",
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "31",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "33",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "34",
+    "id" : "38",
     "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "36",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "39",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "41",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "42",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "43",
-    "type" : "owl:objectProperty"
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "45",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "47",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "48",
+    "id" : "46",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "50",
     "type" : "owl:objectProperty"
   }, {
     "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "59",
+    "id" : "57",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "61",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "12",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "63",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "68",
+    "id" : "66",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
     "type" : "owl:objectProperty"
-  }, {
-    "id" : "73",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "75",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "80",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "82",
-    "type" : "owl:datatypeProperty"
   }, {
     "id" : "84",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "86",
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "88",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "94",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "95",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "97",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "99",
     "type" : "owl:disjointWith"
   }, {
     "id" : "100",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "101",
     "type" : "owl:disjointWith"
@@ -1247,40 +1285,40 @@
     "id" : "104",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "105",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "106",
     "type" : "owl:disjointWith"
   }, {
     "id" : "107",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "108",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "109",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "111",
     "type" : "owl:disjointWith"
   }, {
     "id" : "112",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "113",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "114",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "116",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "117",
+    "id" : "115",
     "type" : "owl:disjointWith"
   }, {
     "id" : "118",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "119",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "120",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "121",
     "type" : "owl:disjointWith"
   }, {
     "id" : "122",
@@ -1289,26 +1327,32 @@
     "id" : "123",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "125",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "127",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "131",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "132",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "135",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "137",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "138",
+    "id" : "136",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "139",
+    "id" : "137",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "140",
     "type" : "owl:disjointWith"
@@ -1344,10 +1388,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "151",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "152",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "153",
     "type" : "rdfs:SubClassOf"
@@ -1359,28 +1403,31 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "156",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "157",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "158",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "159",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "160",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "161",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "164",
+    "id" : "162",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "165",
+    "id" : "164",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "166",
-    "type" : "rdfs:SubClassOf"
+    "id" : "165",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "167",
     "type" : "rdfs:SubClassOf"
@@ -1392,7 +1439,7 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "170",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "171",
     "type" : "rdfs:SubClassOf"
@@ -1401,7 +1448,7 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "173",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "174",
     "type" : "owl:disjointWith"
@@ -1411,6 +1458,9 @@
   }, {
     "id" : "176",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "177",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "178",
     "type" : "owl:disjointWith"
@@ -1431,10 +1481,10 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "184",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "185",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "186",
     "type" : "rdfs:SubClassOf"
@@ -1452,28 +1502,28 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "191",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "192",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "193",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "194",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "195",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "196",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "197",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "198",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "199",
     "type" : "rdfs:SubClassOf"
@@ -1482,896 +1532,896 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "201",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "202",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "203",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "204",
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://github.com/chielvanderpas/ddss#involves",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "involves"
-    },
-    "minCardinality" : "1",
-    "domain" : "1",
-    "attributes" : [ "object" ],
-    "id" : "0"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasFileName",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "5",
-    "label" : {
-      "IRI-based" : "hasFileName"
-    },
-    "cardinality" : "1",
-    "domain" : "4",
-    "attributes" : [ "datatype" ],
-    "id" : "3"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasPreservationUntilDate",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasName",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "range" : "7",
     "label" : {
-      "IRI-based" : "hasPreservationUntilDate"
+      "IRI-based" : "hasName"
     },
     "cardinality" : "1",
-    "domain" : "4",
-    "attributes" : [ "datatype" ],
-    "id" : "6"
+    "domain" : "6",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "5"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasStatus",
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "12",
+    "subproperty" : [ "13" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#storedAt",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "storedAt"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasFileFormat",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasFileFormat"
+    },
+    "cardinality" : "1",
+    "domain" : "17",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasDocumentDescription",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasDocumentDescription"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "19"
+  }, {
+    "range" : "23",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "23",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "23",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "23",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasFork",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "hasFork"
+    },
+    "domain" : "32",
+    "attributes" : [ "object", "external" ],
+    "id" : "31"
+  }, {
+    "range" : "40",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "38"
+  }, {
+    "range" : "10",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasDocumentationType",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasDocumentationType"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "13"
+  }, {
+    "range" : "40",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "40",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasBotLongName",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "hasBotLongName"
+    },
+    "domain" : "47",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasSubEvent",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasSubEvent"
+    },
+    "domain" : "10",
+    "attributes" : [ "object", "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#locatedAt",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "locatedAt"
+    },
+    "domain" : "32",
+    "attributes" : [ "object", "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#partOf",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "partOf"
+    },
+    "domain" : "9",
+    "attributes" : [ "object", "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://github.com/chielvanderpas/ddss/hasResponsibleActor",
     "baseIri" : "https://github.com/chielvanderpas/ddss",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasResponsibleActor"
+    },
+    "domain" : "54",
+    "attributes" : [ "object", "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasBotDescription",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "hasBotDescription"
+    },
+    "domain" : "47",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#canAccess",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
     "range" : "9",
+    "label" : {
+      "IRI-based" : "canAccess"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasGuid",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "hasGuid"
+    },
+    "domain" : "47",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasRole",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "hasRole"
+    },
+    "cardinality" : "1",
+    "domain" : "6",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#endedAt",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "endedAt"
+    },
+    "maxCardinality" : "1",
+    "domain" : "10",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#copyStoredAt",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "copyStoredAt"
+    },
+    "domain" : "17",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasStatus",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "23",
     "label" : {
       "IRI-based" : "hasStatus"
     },
     "cardinality" : "1",
-    "domain" : "4",
-    "attributes" : [ "object" ],
-    "id" : "8"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "11",
-    "label" : {
-      "IRI-based" : "topObjectProperty"
-    },
-    "domain" : "11",
-    "subproperty" : [ "12" ],
+    "domain" : "1",
     "attributes" : [ "object", "external" ],
-    "id" : "10"
+    "id" : "83"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasEmailAddress",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "22",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasEmailAddress",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "85",
     "label" : {
       "IRI-based" : "hasEmailAddress"
     },
     "minCardinality" : "1",
-    "domain" : "2",
-    "attributes" : [ "datatype" ],
-    "id" : "21"
+    "domain" : "6",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "84"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#startedAt",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "24",
-    "label" : {
-      "IRI-based" : "startedAt"
-    },
-    "cardinality" : "1",
-    "domain" : "1",
-    "attributes" : [ "datatype" ],
-    "id" : "23"
-  }, {
-    "range" : "20",
-    "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "25"
-  }, {
-    "range" : "20",
-    "domain" : "27",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "26"
-  }, {
-    "range" : "30",
-    "domain" : "29",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "28"
-  }, {
-    "range" : "30",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "31"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#relatesToPhysicalObject",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "29",
-    "label" : {
-      "IRI-based" : "relatesToPhysicalObject"
-    },
-    "domain" : "32",
-    "attributes" : [ "object" ],
-    "id" : "33"
-  }, {
-    "range" : "35",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "34"
-  }, {
-    "range" : "38",
-    "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "36"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#isForkOf",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "40",
-    "label" : {
-      "IRI-based" : "isForkOf"
-    },
-    "domain" : "40",
-    "attributes" : [ "object" ],
-    "id" : "39"
-  }, {
-    "range" : "32",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "41"
-  }, {
-    "range" : "32",
-    "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "42"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasContentType",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "44",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasContentType",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "33",
     "label" : {
       "IRI-based" : "hasContentType"
     },
     "maxCardinality" : "3",
     "minCardinality" : "1",
-    "domain" : "4",
-    "attributes" : [ "object" ],
-    "id" : "43"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss/hasResponsibleActor",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "hasResponsibleActor"
-    },
-    "domain" : "46",
+    "domain" : "1",
     "attributes" : [ "object", "external" ],
-    "id" : "45"
+    "id" : "89"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasPreviousVersion",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "hasPreviousVersion"
-    },
-    "domain" : "4",
-    "attributes" : [ "object" ],
-    "id" : "47"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasBotName",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "49",
-    "label" : {
-      "IRI-based" : "hasBotName"
-    },
-    "domain" : "29",
-    "attributes" : [ "datatype" ],
-    "id" : "48"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#uploadedBy",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "uploadedBy"
-    },
-    "cardinality" : "1",
-    "domain" : "51",
-    "attributes" : [ "object" ],
-    "id" : "50"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "53",
-    "label" : {
-      "IRI-based" : "topDataProperty"
-    },
-    "domain" : "11",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "52"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#relatesToEvent",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "1",
-    "label" : {
-      "IRI-based" : "relatesToEvent"
-    },
-    "domain" : "51",
-    "attributes" : [ "object" ],
-    "id" : "59"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasSharingStatus",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "14",
-    "label" : {
-      "IRI-based" : "hasSharingStatus"
-    },
-    "domain" : "30",
-    "attributes" : [ "object" ],
-    "id" : "61"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasDocumentationType",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "60",
-    "label" : {
-      "IRI-based" : "hasDocumentationType"
-    },
-    "superproperty" : [ "10" ],
-    "domain" : "4",
-    "attributes" : [ "object" ],
-    "id" : "12"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasUniqueIdentifier",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "64",
-    "label" : {
-      "IRI-based" : "hasUniqueIdentifier"
-    },
-    "domain" : "4",
-    "attributes" : [ "datatype" ],
-    "id" : "63"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasDocumentDescription",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "69",
-    "label" : {
-      "IRI-based" : "hasDocumentDescription"
-    },
-    "domain" : "4",
-    "attributes" : [ "datatype" ],
-    "id" : "68"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasCopy",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "62",
-    "label" : {
-      "IRI-based" : "hasCopy"
-    },
-    "domain" : "4",
-    "attributes" : [ "object" ],
-    "id" : "72"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasSubEvent",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "1",
-    "label" : {
-      "IRI-based" : "hasSubEvent"
-    },
-    "domain" : "1",
-    "attributes" : [ "object" ],
-    "id" : "73"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasBotDescription",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "76",
-    "label" : {
-      "IRI-based" : "hasBotDescription"
-    },
-    "domain" : "29",
-    "attributes" : [ "datatype" ],
-    "id" : "75"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#endedAt",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "81",
-    "label" : {
-      "IRI-based" : "endedAt"
-    },
-    "maxCardinality" : "1",
-    "domain" : "1",
-    "attributes" : [ "datatype" ],
-    "id" : "80"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasCreationSoftwareVersion",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "83",
-    "label" : {
-      "IRI-based" : "hasCreationSoftwareVersion"
-    },
-    "domain" : "4",
-    "attributes" : [ "datatype" ],
-    "id" : "82"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasFileFormat",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "85",
-    "label" : {
-      "IRI-based" : "hasFileFormat"
-    },
-    "cardinality" : "1",
-    "domain" : "62",
-    "attributes" : [ "datatype" ],
-    "id" : "84"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#occurredAt",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "87",
-    "label" : {
-      "IRI-based" : "occurredAt"
-    },
-    "cardinality" : "1",
-    "domain" : "51",
-    "attributes" : [ "datatype" ],
-    "id" : "86"
-  }, {
-    "range" : "90",
-    "domain" : "89",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "88"
-  }, {
-    "range" : "65",
-    "domain" : "89",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "94"
-  }, {
-    "range" : "96",
-    "domain" : "89",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "95"
-  }, {
-    "range" : "98",
-    "domain" : "70",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "97"
-  }, {
-    "range" : "77",
-    "domain" : "70",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "99"
-  }, {
-    "range" : "27",
-    "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "100"
-  }, {
-    "range" : "98",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "101"
-  }, {
-    "range" : "70",
-    "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "102"
-  }, {
-    "range" : "98",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "104"
-  }, {
-    "range" : "98",
-    "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "105"
-  }, {
-    "range" : "77",
-    "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "106"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasBotLongName",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "108",
-    "label" : {
-      "IRI-based" : "hasBotLongName"
-    },
-    "domain" : "29",
-    "attributes" : [ "datatype" ],
-    "id" : "107"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasCopyFileName",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "110",
-    "label" : {
-      "IRI-based" : "hasCopyFileName"
-    },
-    "domain" : "62",
-    "attributes" : [ "datatype" ],
-    "id" : "109"
-  }, {
-    "range" : "70",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "111"
-  }, {
-    "range" : "103",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "112"
-  }, {
-    "range" : "77",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "113"
-  }, {
-    "range" : "70",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "114"
-  }, {
-    "range" : "103",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "116"
-  }, {
-    "range" : "98",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "117"
-  }, {
-    "range" : "77",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "118"
-  }, {
-    "range" : "71",
-    "domain" : "121",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "120"
-  }, {
-    "range" : "20",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "122"
-  }, {
-    "range" : "71",
-    "domain" : "124",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "123"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "54",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasRepresentationDocumentation",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "91",
     "label" : {
       "IRI-based" : "hasRepresentationDocumentation"
     },
     "minCardinality" : "1",
-    "domain" : "4",
-    "attributes" : [ "object" ],
-    "id" : "127"
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "90"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasCreationSoftware",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "130",
-    "label" : {
-      "IRI-based" : "hasCreationSoftware"
-    },
-    "domain" : "4",
-    "attributes" : [ "datatype" ],
-    "id" : "131"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#copyStoredAt",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "133",
-    "label" : {
-      "IRI-based" : "copyStoredAt"
-    },
-    "domain" : "62",
-    "attributes" : [ "datatype" ],
-    "id" : "132"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasPhoneNumber",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "136",
-    "label" : {
-      "IRI-based" : "hasPhoneNumber"
-    },
-    "minCardinality" : "1",
-    "domain" : "2",
-    "attributes" : [ "datatype" ],
-    "id" : "135"
-  }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasModelName",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "125",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasModelName",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "93",
     "label" : {
       "IRI-based" : "hasModelName"
     },
     "cardinality" : "1",
-    "domain" : "40",
-    "attributes" : [ "datatype" ],
-    "id" : "137"
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "92"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#contains",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "46",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#involves",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "6",
     "label" : {
-      "IRI-based" : "contains"
+      "IRI-based" : "involves"
     },
     "minCardinality" : "1",
-    "domain" : "51",
-    "attributes" : [ "object" ],
+    "domain" : "10",
+    "attributes" : [ "object", "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasUniqueIdentifier",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "hasUniqueIdentifier"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#relatesToEvent",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "relatesToEvent"
+    },
+    "domain" : "98",
+    "attributes" : [ "object", "external" ],
+    "id" : "97"
+  }, {
+    "range" : "59",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasSharingStatus",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "hasSharingStatus"
+    },
+    "domain" : "9",
+    "attributes" : [ "object", "external" ],
+    "id" : "100"
+  }, {
+    "range" : "81",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "101"
+  }, {
+    "range" : "82",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "105",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "0",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "107"
+  }, {
+    "range" : "105",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "58",
+    "domain" : "110",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "105",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasCreationSoftwareVersion",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "hasCreationSoftwareVersion"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "112"
+  }, {
+    "range" : "105",
+    "domain" : "110",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "0",
+    "domain" : "110",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "115"
+  }, {
+    "range" : "58",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "118"
+  }, {
+    "range" : "110",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "119"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "120"
+  }, {
+    "range" : "58",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "121"
+  }, {
+    "range" : "110",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "105",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "0",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "30",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "2",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "30",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasEventDescription",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "hasEventDescription"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#occurredAt",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "occurredAt"
+    },
+    "cardinality" : "1",
+    "domain" : "98",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "131"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasCopy",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasCopy"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "136"
+  }, {
+    "range" : "39",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#startedAt",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "startedAt"
+    },
+    "cardinality" : "1",
+    "domain" : "10",
+    "attributes" : [ "datatype", "external" ],
     "id" : "138"
   }, {
-    "range" : "15",
-    "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "139"
-  }, {
-    "range" : "15",
-    "domain" : "74",
+    "range" : "39",
+    "domain" : "45",
     "attributes" : [ "anonymous", "object" ],
     "id" : "140"
   }, {
-    "range" : "67",
-    "domain" : "37",
+    "range" : "69",
+    "domain" : "103",
     "attributes" : [ "anonymous", "object" ],
     "id" : "141"
   }, {
-    "range" : "90",
-    "domain" : "96",
+    "range" : "59",
+    "domain" : "82",
     "attributes" : [ "anonymous", "object" ],
     "id" : "142"
   }, {
-    "range" : "65",
-    "domain" : "96",
+    "range" : "81",
+    "domain" : "82",
     "attributes" : [ "anonymous", "object" ],
     "id" : "143"
   }, {
-    "range" : "13",
-    "domain" : "74",
+    "range" : "43",
+    "domain" : "45",
     "attributes" : [ "anonymous", "object" ],
     "id" : "144"
   }, {
-    "range" : "90",
-    "domain" : "65",
+    "range" : "59",
+    "domain" : "81",
     "attributes" : [ "anonymous", "object" ],
     "id" : "145"
   }, {
     "iri" : "https://github.com/chielvanderpas/ddss/ddPartOf",
     "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "40",
+    "range" : "32",
     "label" : {
       "IRI-based" : "ddPartOf"
     },
-    "domain" : "51",
+    "domain" : "98",
     "attributes" : [ "object", "external" ],
     "id" : "146"
   }, {
     "range" : "1",
-    "domain" : "55",
+    "domain" : "58",
     "attributes" : [ "anonymous", "object" ],
     "id" : "147"
   }, {
-    "range" : "66",
-    "domain" : "89",
+    "range" : "33",
+    "domain" : "36",
     "attributes" : [ "anonymous", "object" ],
     "id" : "148"
   }, {
     "range" : "1",
-    "domain" : "93",
+    "domain" : "0",
     "attributes" : [ "anonymous", "object" ],
     "id" : "149"
   }, {
     "range" : "1",
-    "domain" : "66",
+    "domain" : "117",
     "attributes" : [ "anonymous", "object" ],
     "id" : "150"
   }, {
-    "range" : "66",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasCopyFileName",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "133",
+    "label" : {
+      "IRI-based" : "hasCopyFileName"
+    },
+    "domain" : "17",
+    "attributes" : [ "datatype", "external" ],
     "id" : "151"
   }, {
-    "range" : "66",
-    "domain" : "65",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#uploadedBy",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "uploadedBy"
+    },
+    "cardinality" : "1",
+    "domain" : "98",
+    "attributes" : [ "object", "external" ],
     "id" : "152"
   }, {
-    "range" : "66",
-    "domain" : "90",
+    "range" : "33",
+    "domain" : "35",
     "attributes" : [ "anonymous", "object" ],
     "id" : "153"
   }, {
-    "range" : "15",
-    "domain" : "16",
+    "range" : "33",
+    "domain" : "34",
     "attributes" : [ "anonymous", "object" ],
     "id" : "154"
   }, {
-    "range" : "29",
-    "domain" : "79",
+    "range" : "70",
+    "domain" : "103",
     "attributes" : [ "anonymous", "object" ],
     "id" : "155"
   }, {
-    "range" : "15",
-    "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasFileName",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "130",
+    "label" : {
+      "IRI-based" : "hasFileName"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
     "id" : "156"
   }, {
-    "range" : "15",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#relatesToPhysicalObject",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "relatesToPhysicalObject"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
     "id" : "157"
   }, {
-    "range" : "29",
-    "domain" : "92",
+    "range" : "8",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "range" : "2",
+    "domain" : "4",
     "attributes" : [ "anonymous", "object" ],
     "id" : "159"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasFork",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "40",
-    "label" : {
-      "IRI-based" : "hasFork"
-    },
-    "domain" : "40",
-    "attributes" : [ "object" ],
+    "range" : "70",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "160"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#canAccess",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "30",
-    "label" : {
-      "IRI-based" : "canAccess"
-    },
-    "domain" : "2",
-    "attributes" : [ "object" ],
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "161"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#storedAt",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "158",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasPreservationUntilDate",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "163",
     "label" : {
-      "IRI-based" : "storedAt"
+      "IRI-based" : "hasPreservationUntilDate"
     },
-    "domain" : "4",
-    "attributes" : [ "datatype" ],
+    "cardinality" : "1",
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "162"
+  }, {
+    "range" : "2",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "164"
   }, {
-    "range" : "44",
-    "domain" : "78",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#isForkOf",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "isForkOf"
+    },
+    "domain" : "32",
+    "attributes" : [ "object", "external" ],
     "id" : "165"
   }, {
-    "range" : "44",
-    "domain" : "134",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "166"
-  }, {
-    "range" : "38",
-    "domain" : "67",
+    "range" : "10",
+    "domain" : "68",
     "attributes" : [ "anonymous", "object" ],
     "id" : "167"
   }, {
-    "range" : "44",
-    "domain" : "91",
+    "range" : "88",
+    "domain" : "6",
     "attributes" : [ "anonymous", "object" ],
     "id" : "168"
   }, {
-    "range" : "46",
-    "domain" : "56",
+    "range" : "10",
+    "domain" : "70",
     "attributes" : [ "anonymous", "object" ],
     "id" : "169"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasRole",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "163",
-    "label" : {
-      "IRI-based" : "hasRole"
-    },
-    "cardinality" : "1",
-    "domain" : "2",
-    "attributes" : [ "datatype" ],
+    "range" : "10",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "170"
   }, {
-    "range" : "46",
-    "domain" : "58",
+    "range" : "39",
+    "domain" : "86",
     "attributes" : [ "anonymous", "object" ],
     "id" : "171"
   }, {
-    "range" : "46",
-    "domain" : "57",
+    "range" : "39",
+    "domain" : "76",
     "attributes" : [ "anonymous", "object" ],
     "id" : "172"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#concernsDocument",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "4",
+    "range" : "39",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
+  }, {
+    "range" : "70",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
+  }, {
+    "range" : "60",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "70",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#concernsDocument",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "1",
     "label" : {
       "IRI-based" : "concernsDocument"
     },
     "cardinality" : "1",
-    "domain" : "46",
-    "attributes" : [ "object" ],
-    "id" : "173"
+    "domain" : "54",
+    "attributes" : [ "object", "external" ],
+    "id" : "177"
   }, {
-    "range" : "38",
-    "domain" : "55",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "174"
-  }, {
-    "range" : "66",
-    "domain" : "93",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "175"
-  }, {
-    "range" : "38",
-    "domain" : "93",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "176"
-  }, {
-    "range" : "38",
-    "domain" : "66",
+    "range" : "70",
+    "domain" : "60",
     "attributes" : [ "anonymous", "object" ],
     "id" : "178"
   }, {
-    "range" : "121",
-    "domain" : "119",
+    "range" : "28",
+    "domain" : "25",
     "attributes" : [ "anonymous", "object" ],
     "id" : "179"
   }, {
-    "range" : "124",
-    "domain" : "119",
+    "range" : "22",
+    "domain" : "25",
     "attributes" : [ "anonymous", "object" ],
     "id" : "180"
   }, {
-    "range" : "71",
-    "domain" : "119",
+    "range" : "30",
+    "domain" : "25",
     "attributes" : [ "anonymous", "object" ],
     "id" : "181"
   }, {
-    "range" : "124",
-    "domain" : "121",
+    "range" : "22",
+    "domain" : "28",
     "attributes" : [ "anonymous", "object" ],
     "id" : "182"
   }, {
-    "range" : "93",
-    "domain" : "55",
+    "range" : "68",
+    "domain" : "37",
     "attributes" : [ "anonymous", "object" ],
     "id" : "183"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasEventDescription",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "128",
-    "label" : {
-      "IRI-based" : "hasEventDescription"
-    },
-    "domain" : "1",
-    "attributes" : [ "datatype" ],
+    "range" : "60",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "184"
   }, {
-    "range" : "66",
-    "domain" : "55",
+    "range" : "60",
+    "domain" : "81",
     "attributes" : [ "anonymous", "object" ],
     "id" : "185"
   }, {
-    "range" : "9",
-    "domain" : "71",
+    "range" : "60",
+    "domain" : "59",
     "attributes" : [ "anonymous", "object" ],
     "id" : "186"
   }, {
-    "range" : "9",
-    "domain" : "121",
+    "range" : "60",
+    "domain" : "82",
     "attributes" : [ "anonymous", "object" ],
     "id" : "187"
   }, {
-    "range" : "9",
-    "domain" : "124",
+    "range" : "60",
+    "domain" : "71",
     "attributes" : [ "anonymous", "object" ],
     "id" : "188"
   }, {
-    "range" : "9",
-    "domain" : "119",
+    "range" : "47",
+    "domain" : "65",
     "attributes" : [ "anonymous", "object" ],
     "id" : "189"
   }, {
-    "range" : "4",
-    "domain" : "103",
+    "range" : "47",
+    "domain" : "64",
     "attributes" : [ "anonymous", "object" ],
     "id" : "190"
   }, {
-    "range" : "4",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#contains",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "contains"
+    },
+    "minCardinality" : "1",
+    "domain" : "98",
+    "attributes" : [ "object", "external" ],
     "id" : "191"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#partOf",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "40",
-    "label" : {
-      "IRI-based" : "partOf"
-    },
-    "domain" : "30",
-    "attributes" : [ "object" ],
+    "range" : "9",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "192"
   }, {
-    "range" : "4",
-    "domain" : "129",
+    "range" : "9",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "193"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasName",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "162",
-    "label" : {
-      "IRI-based" : "hasName"
-    },
-    "cardinality" : "1",
-    "domain" : "2",
-    "attributes" : [ "datatype" ],
+    "range" : "54",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "194"
   }, {
-    "range" : "4",
-    "domain" : "98",
+    "range" : "54",
+    "domain" : "62",
     "attributes" : [ "anonymous", "object" ],
     "id" : "195"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#locatedAt",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "177",
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasCreationSoftware",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "135",
     "label" : {
-      "IRI-based" : "locatedAt"
+      "IRI-based" : "hasCreationSoftware"
     },
-    "domain" : "40",
-    "attributes" : [ "object" ],
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
     "id" : "196"
   }, {
-    "range" : "4",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasBotName",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "hasBotName"
+    },
+    "domain" : "47",
+    "attributes" : [ "datatype", "external" ],
     "id" : "197"
   }, {
-    "iri" : "https://github.com/chielvanderpas/ddss#hasGuid",
-    "baseIri" : "https://github.com/chielvanderpas/ddss",
-    "range" : "126",
-    "label" : {
-      "IRI-based" : "hasGuid"
-    },
-    "domain" : "29",
-    "attributes" : [ "datatype" ],
+    "range" : "54",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "198"
   }, {
-    "range" : "4",
-    "domain" : "70",
+    "range" : "1",
+    "domain" : "110",
     "attributes" : [ "anonymous", "object" ],
     "id" : "199"
   }, {
-    "range" : "4",
-    "domain" : "77",
+    "range" : "1",
+    "domain" : "105",
     "attributes" : [ "anonymous", "object" ],
     "id" : "200"
   }, {
-    "range" : "14",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasPreviousVersion",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasPreviousVersion"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
     "id" : "201"
   }, {
     "range" : "1",
-    "domain" : "38",
+    "domain" : "2",
     "attributes" : [ "anonymous", "object" ],
     "id" : "202"
   }, {
-    "range" : "14",
-    "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://chielvanderpas.github.io/ddss-ontology/#hasPhoneNumber",
+    "baseIri" : "https://chielvanderpas.github.io/ddss-ontology/",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "hasPhoneNumber"
+    },
+    "minCardinality" : "1",
+    "domain" : "6",
+    "attributes" : [ "datatype", "external" ],
     "id" : "203"
   }, {
-    "range" : "14",
-    "domain" : "13",
+    "range" : "1",
+    "domain" : "116",
     "attributes" : [ "anonymous", "object" ],
     "id" : "204"
   } ]

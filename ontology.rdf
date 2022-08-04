@@ -54,193 +54,193 @@
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#canAccess -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#canAccess -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#canAccess">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Actor"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#Object"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#canAccess">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Object"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#concernsDocument -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#concernsDocument -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#concernsDocument">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#DocumentInteraction"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#concernsDocument">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#contains -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#contains -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#contains">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#DataDrop"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#DocumentInteraction"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#contains">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DataDrop"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasContentType -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasContentType -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#hasContentType">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#ContentType"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasContentType">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#ContentType"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasCopy -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasCopy -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#hasCopy">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#CopyInOriginalFormat"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasCopy">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#CopyInOriginalFormat"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasDocumentationType -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasDocumentationType -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#hasDocumentationType">
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasDocumentationType">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#DocumentationType"/>
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DocumentationType"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasFork -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasFork -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#hasFork">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#AIM"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#AIM"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasFork">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasPreviousVersion -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasPreviousVersion -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#hasPreviousVersion">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasPreviousVersion">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasRepresentationDocumentation -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#RepresentationInformationDocument"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasRepresentationDocumentation">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#RepresentationInformationDocument"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasSharingStatus -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasSharingStatus -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#hasSharingStatus">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Object"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#SharingStatus"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasSharingStatus">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Object"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#SharingStatus"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasStatus -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasStatus -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#hasStatus">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#Status"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasStatus">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Status"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasSubEvent -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasSubEvent -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#hasSubEvent">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasSubEvent">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#involves -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#involves -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#involves">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#Actor"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#involves">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#isForkOf -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#isForkOf -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#isForkOf">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#AIM"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#AIM"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#isForkOf">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#locatedAt -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#locatedAt -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#locatedAt">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#AIM"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#locatedAt">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
         <rdfs:range rdf:resource="https://bag2.basisregistraties.overheid.nl/bag/def/Pand"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#partOf -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#partOf -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#partOf">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Object"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#AIM"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#partOf">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Object"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#relatesToEvent -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#relatesToEvent -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#relatesToEvent">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#DataDrop"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#relatesToEvent">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DataDrop"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#relatesToPhysicalObject -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#relatesToPhysicalObject -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#relatesToPhysicalObject">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#InformationObject"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#PhysicalObject"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#relatesToPhysicalObject">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#InformationObject"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#uploadedBy -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#uploadedBy -->
 
 
-    <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss#uploadedBy">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#DataDrop"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#Actor"/>
+    <owl:ObjectProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#uploadedBy">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DataDrop"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
     </owl:ObjectProperty>
     
 
@@ -249,8 +249,8 @@
 
 
     <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss/ddPartOf">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#DataDrop"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#AIM"/>
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DataDrop"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
     </owl:ObjectProperty>
     
 
@@ -259,8 +259,8 @@
 
 
     <owl:ObjectProperty rdf:about="https://github.com/chielvanderpas/ddss/hasResponsibleActor">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#DocumentInteraction"/>
-        <rdfs:range rdf:resource="https://github.com/chielvanderpas/ddss#Actor"/>
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction"/>
+        <rdfs:range rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
     </owl:ObjectProperty>
     
 
@@ -277,233 +277,233 @@
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#copyStoredAt -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#copyStoredAt -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#copyStoredAt">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#CopyInOriginalFormat"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#copyStoredAt">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#CopyInOriginalFormat"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#endedAt -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#endedAt -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#endedAt">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#endedAt">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasBotDescription -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasBotDescription -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasBotDescription">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#PhysicalObject"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasBotDescription">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasBotLongName -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasBotLongName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasBotLongName">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#PhysicalObject"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasBotLongName">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasBotName -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasBotName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasBotName">
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasBotName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#PhysicalObject"/>
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasCopyFileName -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasCopyFileName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasCopyFileName">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#CopyInOriginalFormat"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasCopyFileName">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#CopyInOriginalFormat"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasCreationSoftware -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasCreationSoftware -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasCreationSoftware">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasCreationSoftware">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasCreationSoftwareVersion -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasCreationSoftwareVersion -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasCreationSoftwareVersion">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasCreationSoftwareVersion">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasDocumentDescription -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasDocumentDescription -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasDocumentDescription">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasDocumentDescription">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasEmailAddress -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasEmailAddress -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasEmailAddress">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Actor"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasEmailAddress">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasEventDescription -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasEventDescription -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasEventDescription">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasEventDescription">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasFileFormat -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasFileFormat -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasFileFormat">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#CopyInOriginalFormat"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasFileFormat">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#CopyInOriginalFormat"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasFileName -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasFileName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasFileName">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasFileName">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasGuid -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasGuid -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasGuid">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#PhysicalObject"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasGuid">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasModelName -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasModelName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasModelName">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#AIM"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasModelName">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#AIM"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasName -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasName">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Actor"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasName">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasPhoneNumber -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasPhoneNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasPhoneNumber">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Actor"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasPhoneNumber">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasPreservationUntilDate -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasPreservationUntilDate -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasPreservationUntilDate">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasPreservationUntilDate">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasRole -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasRole -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasRole">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Actor"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasRole">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Actor"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#hasUniqueIdentifier -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#hasUniqueIdentifier -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#hasUniqueIdentifier">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#hasUniqueIdentifier">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#occurredAt -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#occurredAt -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#occurredAt">
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#occurredAt">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#DataDrop"/>
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DataDrop"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#startedAt -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#startedAt -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#startedAt">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#startedAt">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#storedAt -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#storedAt -->
 
 
-    <owl:DatatypeProperty rdf:about="https://github.com/chielvanderpas/ddss#storedAt">
-        <rdfs:domain rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:DatatypeProperty rdf:about="https://chielvanderpas.github.io/ddss-ontology/#storedAt">
+        <rdfs:domain rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
@@ -535,13 +535,13 @@
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#AIM -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#AIM -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#AIM">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#AIM">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasModelName"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasModelName"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
@@ -551,42 +551,42 @@
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Acquire -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Acquire -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Acquire">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Acquire">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
         <terms:description>The acquistion of an asset, the transfer of an asset from the construction to the operational phase, or the transfer of ownership of an asset.</terms:description>
         <rdfs:label>Acquire Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Actor -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Actor -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Actor">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Actor">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasEmailAddress"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasEmailAddress"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasPhoneNumber"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasPhoneNumber"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasName"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasName"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasRole"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasRole"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
@@ -597,55 +597,55 @@
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#AlphanumericalInformation -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#AlphanumericalInformation -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#AlphanumericalInformation">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#ContentType"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#AlphanumericalInformation">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#ContentType"/>
         <terms:description>Alphanumerical Information on a building or part of a building, as described by ISO 19650.</terms:description>
         <rdfs:label>Alphanumerical Information</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Archived -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Archived -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Archived">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Status"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Archived">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Status"/>
         <terms:description>An &apos;archived&apos; document has been published, but is no longer relevant. It cannot be changed.</terms:description>
         <rdfs:label>Archived Status</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#CSV -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#CSV -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#CSV">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#CSV">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:label>CSV Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#ContentType -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#ContentType -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#ContentType">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#ContentType">
         <terms:description>The type of content that a document contains, as defined by ISO 19650.</terms:description>
         <rdfs:label>Content Type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#CopyInOriginalFormat -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#CopyInOriginalFormat -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#CopyInOriginalFormat">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#CopyInOriginalFormat">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasFileFormat"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasFileFormat"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
@@ -655,36 +655,36 @@
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Creation -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Creation -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Creation">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#DocumentInteraction"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Creation">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction"/>
         <terms:description>A document interaction where a new document is created.</terms:description>
         <rdfs:label>Creation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#DataDrop -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#DataDrop -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#DataDrop">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#DataDrop">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#contains"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#contains"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#uploadedBy"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#uploadedBy"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#occurredAt"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#occurredAt"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
@@ -694,60 +694,60 @@
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Document -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Document -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Document">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Document">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasContentType"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasContentType"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasRepresentationDocumentation"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasStatus"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasStatus"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasContentType"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasContentType"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxCardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasFileName"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasFileName"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#hasPreservationUntilDate"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#hasPreservationUntilDate"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#InformationObject"/>
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#InformationObject"/>
         <terms:description>A digital document which contains information and which can be shared with others in the form of a document.</terms:description>
         <rdfs:label>Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#DocumentInteraction -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#DocumentInteraction">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#concernsDocument"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#concernsDocument"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
@@ -757,422 +757,422 @@
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Documentation -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Documentation -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Documentation">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#ContentType"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Documentation">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#ContentType"/>
         <terms:description>Information describing (part of) a building as described by ISO 19650.</terms:description>
         <rdfs:label>Documentation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#DocumentationType -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#DocumentationType -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#DocumentationType">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#DocumentationType">
         <rdfs:label>Documentation Type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Edit -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Edit -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Edit">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#DocumentInteraction"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Edit">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction"/>
         <terms:description>A document interaction where a new version of an existing document is uploaded.</terms:description>
         <rdfs:label>Edit</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#EndOfLife -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#EndOfLife -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#EndOfLife">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#EndOfLife">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
         <terms:description>The disposal, decommissioning, demolition, or tranfer of ownership of an asset.</terms:description>
         <rdfs:label>End of Life Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Event -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Event -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Event">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Event">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#involves"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#involves"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#startedAt"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#startedAt"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/chielvanderpas/ddss#endedAt"/>
+                <owl:onProperty rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#endedAt"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#InformationObject"/>
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#InformationObject"/>
         <terms:description>Any event that relates to an asset, and about which information should be stored within an AIM. An event can be planned (i.e., the delivery of a building) or unplanned (i.e., damage to the asset).</terms:description>
         <rdfs:label>Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#GeometricalInformation -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#GeometricalInformation -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#GeometricalInformation">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#ContentType"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#GeometricalInformation">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#ContentType"/>
         <terms:description>Information describing the geometry of a building or part of a building, as described by ISO 19650. Usually stored in the form of an IFC model or other BIM model.</terms:description>
         <rdfs:label>Geometrical Information</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#IFC -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#IFC -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#IFC">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#IFC">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:label>IFC Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#IFC2x3 -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#IFC2x3 -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#IFC2x3">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#IFC"/>
-        <owl:disjointWith rdf:resource="https://github.com/chielvanderpas/ddss#IFC4"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#IFC2x3">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#IFC"/>
+        <owl:disjointWith rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#IFC4"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#IFC4 -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#IFC4 -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#IFC4">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#IFC"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#IFC4">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#IFC"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#InformationObject -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#InformationObject -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#InformationObject">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Object"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#InformationObject">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Object"/>
         <terms:description>An object that contains information about (part of) an asset.</terms:description>
         <rdfs:label>Information Object</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Inspections -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Inspections -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Inspections">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Maintain"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Inspections">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Maintain"/>
         <terms:description>Inspection of an asset where some aspect of a building is inspected, but not changed.</terms:description>
         <rdfs:label>Inspection Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Internal -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Internal -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Internal">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#SharingStatus"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Internal">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#SharingStatus"/>
         <terms:description>The object is only shared to the internal team working on it.</terms:description>
         <rdfs:label>Sharing Status Internal</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#JPEG -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#JPEG -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#JPEG">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#JPEG">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:label>Jpeg Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Maintain -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Maintain -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Maintain">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Maintain">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
         <terms:description>Any type of changes or inspections of an asset during its lifespan.</terms:description>
         <rdfs:label>Maintain Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Maintenance -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Maintenance -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Maintenance">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Maintain"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Maintenance">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Maintain"/>
         <terms:description>Planned and unplanned maintenance on an asset.</terms:description>
         <rdfs:label>Maintenance Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Object -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Object -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Object">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Object">
         <terms:description>Any object, either in the form of a physical object or an information object, that is part of the AIM in question.</terms:description>
         <rdfs:label>Object</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Operations -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Operations -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Operations">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Maintain"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Operations">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Maintain"/>
         <terms:description>Any event that relates to the operation of a building, such as cleaning, waste management, catering, etc.</terms:description>
         <rdfs:label>Operations Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#PCD -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#PCD -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#PCD">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#PCD">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:label>PCD Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#PDF -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#PDF -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#PDF">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#PDF">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:label>PDF Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#PNG -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#PNG -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#PNG">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#PNG">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:label>PNG Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#PhysicalObject -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#PhysicalObject">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Object"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Object"/>
         <terms:description>Any object that is present in the real world. Here defined by the BOT ontology. Objects do not have to be physical (i.e., a space can be a physical object) but it does need to have a geometrical shape in the real world.</terms:description>
         <rdfs:label>Physical Object</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Public -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Public -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Public">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#SharingStatus"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Public">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#SharingStatus"/>
         <terms:description>The object is accessible by anyone.</terms:description>
         <rdfs:label>Sharing Status Public</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Published -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Published -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Published">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Status"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Published">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Status"/>
         <terms:description>A published document can be accessed by others, and is final. In general it will not be updated.</terms:description>
         <rdfs:label>Published Status</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Refurbish -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Refurbish -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Refurbish">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Renew"/>
-        <owl:disjointWith rdf:resource="https://github.com/chielvanderpas/ddss#Renewal"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Refurbish">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Renew"/>
+        <owl:disjointWith rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Renewal"/>
         <terms:description>Large repairs and reparations, improvements, and upgrades to maintain an asset in its optimal state.</terms:description>
         <rdfs:label>Refurbish Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Renew -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Renew -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Renew">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Event"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Renew">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Event"/>
         <terms:description>Major changes or adaptions of an asset.</terms:description>
         <rdfs:label>Renew Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Renewal -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Renewal -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Renewal">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Renew"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Renewal">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Renew"/>
         <terms:description>Changes to an asset where parts of the building, or functions of the building, significantly change.</terms:description>
         <rdfs:label>Renewal Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#RepresentationInformationDocument -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#RepresentationInformationDocument -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#RepresentationInformationDocument">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#RepresentationInformationDocument">
         <terms:description>Information that describes how other information is structured. Required by the OAIS standard for durable data storage.</terms:description>
         <rdfs:label>Representation Information Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Shared -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Shared -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Shared">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Status"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Shared">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Status"/>
         <terms:description>A shared document can be accessed by others, but is still work in progress. New versions are to be expected.</terms:description>
         <rdfs:label>Shared Status</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#SharedToExternalParty -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#SharedToExternalParty -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#SharedToExternalParty">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#SharedToSpecific"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#SharedToExternalParty">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#SharedToSpecific"/>
         <terms:description>The object is shared to a specific external party.</terms:description>
         <rdfs:label>Sharing Status to External Party</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#SharedToInternalGroup -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#SharedToInternalGroup -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#SharedToInternalGroup">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#SharedToSpecific"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#SharedToInternalGroup">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#SharedToSpecific"/>
         <terms:description>The object is shared to a specific internal group.</terms:description>
         <rdfs:label>Sharing Status to Internal Group</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#SharedToInternalPerson -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#SharedToInternalPerson -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#SharedToInternalPerson">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#SharedToSpecific"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#SharedToInternalPerson">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#SharedToSpecific"/>
         <terms:description>The object is shared to a specific internal person.</terms:description>
         <rdfs:label>Sharing Status to Internal Person</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#SharedToSpecific -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#SharedToSpecific -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#SharedToSpecific">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#SharingStatus"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#SharedToSpecific">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#SharingStatus"/>
         <terms:description>The object can be accessed by specific (groups of) people.</terms:description>
         <rdfs:label>Sharing Status Specific</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#SharingStatus -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#SharingStatus -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#SharingStatus">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#SharingStatus">
         <terms:description>The people or parties who can access a specific object.</terms:description>
         <rdfs:label>Sharing Status</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Status -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Status -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Status">
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Status">
         <terms:description>The status of a document as described by ISO 19650.</terms:description>
         <rdfs:label>Status</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#StatusChange -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#StatusChange -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#StatusChange">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#DocumentInteraction"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#StatusChange">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#DocumentInteraction"/>
         <terms:description>A document interaction where the status of a document is changed.</terms:description>
         <rdfs:label>Status Change</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#Survey -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#Survey -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#Survey">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Maintain"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Survey">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Maintain"/>
         <terms:description>Measuring and sureveying (part of) an asset.</terms:description>
         <rdfs:label>Survey Event</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#TXT -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#TXT -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#TXT">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Document"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#TXT">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Document"/>
         <rdfs:label>Txt Document</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/chielvanderpas/ddss#WorkInProgress -->
+    <!-- https://chielvanderpas.github.io/ddss-ontology/#WorkInProgress -->
 
 
-    <owl:Class rdf:about="https://github.com/chielvanderpas/ddss#WorkInProgress">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#Status"/>
+    <owl:Class rdf:about="https://chielvanderpas.github.io/ddss-ontology/#WorkInProgress">
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#Status"/>
         <terms:description>The document is being worked on, and is only accessible to those working on it.</terms:description>
         <rdfs:label>Work In Progress Status</rdfs:label>
     </owl:Class>
@@ -1183,7 +1183,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/bot#Element">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#PhysicalObject"/>
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject"/>
     </owl:Class>
     
 
@@ -1192,7 +1192,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/bot#Zone">
-        <rdfs:subClassOf rdf:resource="https://github.com/chielvanderpas/ddss#PhysicalObject"/>
+        <rdfs:subClassOf rdf:resource="https://chielvanderpas.github.io/ddss-ontology/#PhysicalObject"/>
     </owl:Class>
     
 
@@ -1209,47 +1209,47 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Acquire"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#EndOfLife"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Maintain"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Renew"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Acquire"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#EndOfLife"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Maintain"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Renew"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Archived"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Published"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Shared"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#WorkInProgress"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Archived"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Published"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Shared"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#WorkInProgress"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#CSV"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#IFC"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#JPEG"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#PCD"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#PDF"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#PNG"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#CSV"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#IFC"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#JPEG"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#PCD"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#PDF"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#PNG"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Inspections"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Maintenance"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Operations"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Survey"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Inspections"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Maintenance"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Operations"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Survey"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Internal"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#Public"/>
-            <rdf:Description rdf:about="https://github.com/chielvanderpas/ddss#SharedToSpecific"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Internal"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#Public"/>
+            <rdf:Description rdf:about="https://chielvanderpas.github.io/ddss-ontology/#SharedToSpecific"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
