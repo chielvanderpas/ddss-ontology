@@ -1,0 +1,728 @@
+<https://github.com/chielvanderpas/ddss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://github.com/chielvanderpas/ddss> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/bot-0.3.2> .
+<https://github.com/chielvanderpas/ddss> <http://purl.org/dc/terms/creator> "Chiel van der Pas" .
+<https://github.com/chielvanderpas/ddss> <http://purl.org/dc/terms/description> "This ontology describes how data that has to be stored for a longer period of time within the built environment should be structured. The ontology is part of the Durable Data Storage System project, which is developed as part of a graduation thesis of the MSc. Construction Management and Engineering at Eindhoven University of Technology." .
+<https://github.com/chielvanderpas/ddss> <http://www.w3.org/2000/01/rdf-schema#label> "DDSS Ontology" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://github.com/chielvanderpas/ddss#canAccess
+<https://github.com/chielvanderpas/ddss#canAccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#canAccess> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Actor> .
+<https://github.com/chielvanderpas/ddss#canAccess> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#Object> .
+# 
+# https://github.com/chielvanderpas/ddss#concernsDocument
+<https://github.com/chielvanderpas/ddss#concernsDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#concernsDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#DocumentInteraction> .
+<https://github.com/chielvanderpas/ddss#concernsDocument> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#Document> .
+# 
+# https://github.com/chielvanderpas/ddss#contains
+<https://github.com/chielvanderpas/ddss#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#contains> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#DataDrop> .
+<https://github.com/chielvanderpas/ddss#contains> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#DocumentInteraction> .
+# 
+# https://github.com/chielvanderpas/ddss#hasContentType
+<https://github.com/chielvanderpas/ddss#hasContentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasContentType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasContentType> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#ContentType> .
+# 
+# https://github.com/chielvanderpas/ddss#hasCopy
+<https://github.com/chielvanderpas/ddss#hasCopy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasCopy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasCopy> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#CopyInOriginalFormat> .
+# 
+# https://github.com/chielvanderpas/ddss#hasDocumentationType
+<https://github.com/chielvanderpas/ddss#hasDocumentationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasDocumentationType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasDocumentationType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasDocumentationType> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#DocumentationType> .
+# 
+# https://github.com/chielvanderpas/ddss#hasFork
+<https://github.com/chielvanderpas/ddss#hasFork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasFork> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#AIM> .
+<https://github.com/chielvanderpas/ddss#hasFork> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#AIM> .
+# 
+# https://github.com/chielvanderpas/ddss#hasPreviousVersion
+<https://github.com/chielvanderpas/ddss#hasPreviousVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasPreviousVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasPreviousVersion> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#Document> .
+# 
+# https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation
+<https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#RepresentationInformationDocument> .
+# 
+# https://github.com/chielvanderpas/ddss#hasSharingStatus
+<https://github.com/chielvanderpas/ddss#hasSharingStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasSharingStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Object> .
+<https://github.com/chielvanderpas/ddss#hasSharingStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#SharingStatus> .
+# 
+# https://github.com/chielvanderpas/ddss#hasStatus
+<https://github.com/chielvanderpas/ddss#hasStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#Status> .
+# 
+# https://github.com/chielvanderpas/ddss#hasSubEvent
+<https://github.com/chielvanderpas/ddss#hasSubEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#hasSubEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Event> .
+<https://github.com/chielvanderpas/ddss#hasSubEvent> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#Event> .
+# 
+# https://github.com/chielvanderpas/ddss#involves
+<https://github.com/chielvanderpas/ddss#involves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#involves> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Event> .
+<https://github.com/chielvanderpas/ddss#involves> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#Actor> .
+# 
+# https://github.com/chielvanderpas/ddss#isForkOf
+<https://github.com/chielvanderpas/ddss#isForkOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#isForkOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#AIM> .
+<https://github.com/chielvanderpas/ddss#isForkOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#AIM> .
+# 
+# https://github.com/chielvanderpas/ddss#locatedAt
+<https://github.com/chielvanderpas/ddss#locatedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#locatedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#AIM> .
+<https://github.com/chielvanderpas/ddss#locatedAt> <http://www.w3.org/2000/01/rdf-schema#range> <https://bag2.basisregistraties.overheid.nl/bag/def/Pand> .
+# 
+# https://github.com/chielvanderpas/ddss#partOf
+<https://github.com/chielvanderpas/ddss#partOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#partOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Object> .
+<https://github.com/chielvanderpas/ddss#partOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#AIM> .
+# 
+# https://github.com/chielvanderpas/ddss#relatesToEvent
+<https://github.com/chielvanderpas/ddss#relatesToEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#relatesToEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#DataDrop> .
+<https://github.com/chielvanderpas/ddss#relatesToEvent> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#Event> .
+# 
+# https://github.com/chielvanderpas/ddss#relatesToPhysicalObject
+<https://github.com/chielvanderpas/ddss#relatesToPhysicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#relatesToPhysicalObject> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#InformationObject> .
+<https://github.com/chielvanderpas/ddss#relatesToPhysicalObject> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#PhysicalObject> .
+# 
+# https://github.com/chielvanderpas/ddss#uploadedBy
+<https://github.com/chielvanderpas/ddss#uploadedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss#uploadedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#DataDrop> .
+<https://github.com/chielvanderpas/ddss#uploadedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#Actor> .
+# 
+# https://github.com/chielvanderpas/ddss/ddPartOf
+<https://github.com/chielvanderpas/ddss/ddPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss/ddPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#DataDrop> .
+<https://github.com/chielvanderpas/ddss/ddPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#AIM> .
+# 
+# https://github.com/chielvanderpas/ddss/hasResponsibleActor
+<https://github.com/chielvanderpas/ddss/hasResponsibleActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/chielvanderpas/ddss/hasResponsibleActor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#DocumentInteraction> .
+<https://github.com/chielvanderpas/ddss/hasResponsibleActor> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/chielvanderpas/ddss#Actor> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://github.com/chielvanderpas/ddss#copyStoredAt
+<https://github.com/chielvanderpas/ddss#copyStoredAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#copyStoredAt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#CopyInOriginalFormat> .
+<https://github.com/chielvanderpas/ddss#copyStoredAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#endedAt
+<https://github.com/chielvanderpas/ddss#endedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#endedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Event> .
+<https://github.com/chielvanderpas/ddss#endedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://github.com/chielvanderpas/ddss#hasBotDescription
+<https://github.com/chielvanderpas/ddss#hasBotDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasBotDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#PhysicalObject> .
+<https://github.com/chielvanderpas/ddss#hasBotDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasBotLongName
+<https://github.com/chielvanderpas/ddss#hasBotLongName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasBotLongName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#PhysicalObject> .
+<https://github.com/chielvanderpas/ddss#hasBotLongName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasBotName
+<https://github.com/chielvanderpas/ddss#hasBotName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasBotName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://github.com/chielvanderpas/ddss#hasBotName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#PhysicalObject> .
+<https://github.com/chielvanderpas/ddss#hasBotName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasCopyFileName
+<https://github.com/chielvanderpas/ddss#hasCopyFileName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasCopyFileName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#CopyInOriginalFormat> .
+<https://github.com/chielvanderpas/ddss#hasCopyFileName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasCreationSoftware
+<https://github.com/chielvanderpas/ddss#hasCreationSoftware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasCreationSoftware> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasCreationSoftware> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasCreationSoftwareVersion
+<https://github.com/chielvanderpas/ddss#hasCreationSoftwareVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasCreationSoftwareVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasCreationSoftwareVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasDocumentDescription
+<https://github.com/chielvanderpas/ddss#hasDocumentDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasDocumentDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasDocumentDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasEmailAddress
+<https://github.com/chielvanderpas/ddss#hasEmailAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasEmailAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Actor> .
+<https://github.com/chielvanderpas/ddss#hasEmailAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasEventDescription
+<https://github.com/chielvanderpas/ddss#hasEventDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasEventDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Event> .
+<https://github.com/chielvanderpas/ddss#hasEventDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasFileFormat
+<https://github.com/chielvanderpas/ddss#hasFileFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasFileFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#CopyInOriginalFormat> .
+<https://github.com/chielvanderpas/ddss#hasFileFormat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasFileName
+<https://github.com/chielvanderpas/ddss#hasFileName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasFileName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasFileName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasGuid
+<https://github.com/chielvanderpas/ddss#hasGuid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasGuid> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#PhysicalObject> .
+<https://github.com/chielvanderpas/ddss#hasGuid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasModelName
+<https://github.com/chielvanderpas/ddss#hasModelName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasModelName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#AIM> .
+<https://github.com/chielvanderpas/ddss#hasModelName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasName
+<https://github.com/chielvanderpas/ddss#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Actor> .
+<https://github.com/chielvanderpas/ddss#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasPhoneNumber
+<https://github.com/chielvanderpas/ddss#hasPhoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Actor> .
+<https://github.com/chielvanderpas/ddss#hasPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasPreservationUntilDate
+<https://github.com/chielvanderpas/ddss#hasPreservationUntilDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasPreservationUntilDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasPreservationUntilDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://github.com/chielvanderpas/ddss#hasRole
+<https://github.com/chielvanderpas/ddss#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Actor> .
+<https://github.com/chielvanderpas/ddss#hasRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#hasUniqueIdentifier
+<https://github.com/chielvanderpas/ddss#hasUniqueIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#hasUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#hasUniqueIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://github.com/chielvanderpas/ddss#occurredAt
+<https://github.com/chielvanderpas/ddss#occurredAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#occurredAt> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://github.com/chielvanderpas/ddss#occurredAt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#DataDrop> .
+<https://github.com/chielvanderpas/ddss#occurredAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://github.com/chielvanderpas/ddss#startedAt
+<https://github.com/chielvanderpas/ddss#startedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#startedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Event> .
+<https://github.com/chielvanderpas/ddss#startedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://github.com/chielvanderpas/ddss#storedAt
+<https://github.com/chielvanderpas/ddss#storedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://github.com/chielvanderpas/ddss#storedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#storedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://xmlns.com/foaf/spec/#Person
+<http://xmlns.com/foaf/spec/#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://bag2.basisregistraties.overheid.nl/bag/def/Pand
+<https://bag2.basisregistraties.overheid.nl/bag/def/Pand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://github.com/chielvanderpas/ddss#AIM
+<https://github.com/chielvanderpas/ddss#AIM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#AIM> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasModelName> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#AIM> <http://purl.org/dc/terms/description> "Asset Information Model. A model that contains all information related to a certain asset in the built environment as defined by ISO 19650." .
+<https://github.com/chielvanderpas/ddss#AIM> <http://www.w3.org/2000/01/rdf-schema#label> "AIM" .
+# 
+# https://github.com/chielvanderpas/ddss#Acquire
+<https://github.com/chielvanderpas/ddss#Acquire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Acquire> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Event> .
+<https://github.com/chielvanderpas/ddss#Acquire> <http://purl.org/dc/terms/description> "The acquistion of an asset, the transfer of an asset from the construction to the operational phase, or the transfer of ownership of an asset." .
+<https://github.com/chielvanderpas/ddss#Acquire> <http://www.w3.org/2000/01/rdf-schema#label> "Acquire Event" .
+# 
+# https://github.com/chielvanderpas/ddss#Actor
+<https://github.com/chielvanderpas/ddss#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Actor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasEmailAddress> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Actor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasPhoneNumber> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Actor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasName> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Actor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasRole> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/spec/#Person> .
+<https://github.com/chielvanderpas/ddss#Actor> <http://purl.org/dc/terms/description> "Any human being." .
+<https://github.com/chielvanderpas/ddss#Actor> <http://www.w3.org/2000/01/rdf-schema#label> "Actor" .
+# 
+# https://github.com/chielvanderpas/ddss#AlphanumericalInformation
+<https://github.com/chielvanderpas/ddss#AlphanumericalInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#AlphanumericalInformation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#ContentType> .
+<https://github.com/chielvanderpas/ddss#AlphanumericalInformation> <http://purl.org/dc/terms/description> "Alphanumerical Information on a building or part of a building, as described by ISO 19650." .
+<https://github.com/chielvanderpas/ddss#AlphanumericalInformation> <http://www.w3.org/2000/01/rdf-schema#label> "Alphanumerical Information" .
+# 
+# https://github.com/chielvanderpas/ddss#Archived
+<https://github.com/chielvanderpas/ddss#Archived> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Archived> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Status> .
+<https://github.com/chielvanderpas/ddss#Archived> <http://purl.org/dc/terms/description> "An 'archived' document has been published, but is no longer relevant. It cannot be changed." .
+<https://github.com/chielvanderpas/ddss#Archived> <http://www.w3.org/2000/01/rdf-schema#label> "Archived Status" .
+# 
+# https://github.com/chielvanderpas/ddss#CSV
+<https://github.com/chielvanderpas/ddss#CSV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#CSV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#CSV> <http://www.w3.org/2000/01/rdf-schema#label> "CSV Document" .
+# 
+# https://github.com/chielvanderpas/ddss#ContentType
+<https://github.com/chielvanderpas/ddss#ContentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#ContentType> <http://purl.org/dc/terms/description> "The type of content that a document contains, as defined by ISO 19650." .
+<https://github.com/chielvanderpas/ddss#ContentType> <http://www.w3.org/2000/01/rdf-schema#label> "Content Type" .
+# 
+# https://github.com/chielvanderpas/ddss#CopyInOriginalFormat
+<https://github.com/chielvanderpas/ddss#CopyInOriginalFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#CopyInOriginalFormat> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasFileFormat> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#CopyInOriginalFormat> <http://purl.org/dc/terms/description> "The copy of a document in its original file format. This copy in original format might help restoring data when something went wrong with transforming the document in question into an open file format." .
+<https://github.com/chielvanderpas/ddss#CopyInOriginalFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Copy in Original Format" .
+# 
+# https://github.com/chielvanderpas/ddss#Creation
+<https://github.com/chielvanderpas/ddss#Creation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Creation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#DocumentInteraction> .
+<https://github.com/chielvanderpas/ddss#Creation> <http://purl.org/dc/terms/description> "A document interaction where a new document is created." .
+<https://github.com/chielvanderpas/ddss#Creation> <http://www.w3.org/2000/01/rdf-schema#label> "Creation" .
+# 
+# https://github.com/chielvanderpas/ddss#DataDrop
+<https://github.com/chielvanderpas/ddss#DataDrop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#DataDrop> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#contains> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#DataDrop> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#uploadedBy> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#DataDrop> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#occurredAt> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#DataDrop> <http://purl.org/dc/terms/description> "A package of information submitted to an AIM at a single point in time, as described by ISO 19650. A data drop is usually trigerred by an event." .
+<https://github.com/chielvanderpas/ddss#DataDrop> <http://www.w3.org/2000/01/rdf-schema#label> "Data Drop" .
+# 
+# https://github.com/chielvanderpas/ddss#Document
+<https://github.com/chielvanderpas/ddss#Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Document> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasContentType> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Document> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Document> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasStatus> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Document> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#maxCardinality> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasContentType> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Document> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasFileName> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Document> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#hasPreservationUntilDate> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#InformationObject> .
+<https://github.com/chielvanderpas/ddss#Document> <http://purl.org/dc/terms/description> "A digital document which contains information and which can be shared with others in the form of a document." .
+<https://github.com/chielvanderpas/ddss#Document> <http://www.w3.org/2000/01/rdf-schema#label> "Document" .
+# 
+# https://github.com/chielvanderpas/ddss#DocumentInteraction
+<https://github.com/chielvanderpas/ddss#DocumentInteraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#DocumentInteraction> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#concernsDocument> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#DocumentInteraction> <http://purl.org/dc/terms/description> "An interaction between an actor (person) and a document. There are multiple types of document interactions. Every document interaction is part of a data drop." .
+<https://github.com/chielvanderpas/ddss#DocumentInteraction> <http://www.w3.org/2000/01/rdf-schema#label> "Document Interaction" .
+# 
+# https://github.com/chielvanderpas/ddss#Documentation
+<https://github.com/chielvanderpas/ddss#Documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Documentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#ContentType> .
+<https://github.com/chielvanderpas/ddss#Documentation> <http://purl.org/dc/terms/description> "Information describing (part of) a building as described by ISO 19650." .
+<https://github.com/chielvanderpas/ddss#Documentation> <http://www.w3.org/2000/01/rdf-schema#label> "Documentation" .
+# 
+# https://github.com/chielvanderpas/ddss#DocumentationType
+<https://github.com/chielvanderpas/ddss#DocumentationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#DocumentationType> <http://www.w3.org/2000/01/rdf-schema#label> "Documentation Type" .
+# 
+# https://github.com/chielvanderpas/ddss#Edit
+<https://github.com/chielvanderpas/ddss#Edit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Edit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#DocumentInteraction> .
+<https://github.com/chielvanderpas/ddss#Edit> <http://purl.org/dc/terms/description> "A document interaction where a new version of an existing document is uploaded." .
+<https://github.com/chielvanderpas/ddss#Edit> <http://www.w3.org/2000/01/rdf-schema#label> "Edit" .
+# 
+# https://github.com/chielvanderpas/ddss#EndOfLife
+<https://github.com/chielvanderpas/ddss#EndOfLife> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#EndOfLife> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Event> .
+<https://github.com/chielvanderpas/ddss#EndOfLife> <http://purl.org/dc/terms/description> "The disposal, decommissioning, demolition, or tranfer of ownership of an asset." .
+<https://github.com/chielvanderpas/ddss#EndOfLife> <http://www.w3.org/2000/01/rdf-schema#label> "End of Life Event" .
+# 
+# https://github.com/chielvanderpas/ddss#Event
+<https://github.com/chielvanderpas/ddss#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Event> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#involves> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Event> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#startedAt> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Event> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/chielvanderpas/ddss#endedAt> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://github.com/chielvanderpas/ddss#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#InformationObject> .
+<https://github.com/chielvanderpas/ddss#Event> <http://purl.org/dc/terms/description> "Any event that relates to an asset, and about which information should be stored within an AIM. An event can be planned (i.e., the delivery of a building) or unplanned (i.e., damage to the asset)." .
+<https://github.com/chielvanderpas/ddss#Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# 
+# https://github.com/chielvanderpas/ddss#GeometricalInformation
+<https://github.com/chielvanderpas/ddss#GeometricalInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#GeometricalInformation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#ContentType> .
+<https://github.com/chielvanderpas/ddss#GeometricalInformation> <http://purl.org/dc/terms/description> "Information describing the geometry of a building or part of a building, as described by ISO 19650. Usually stored in the form of an IFC model or other BIM model." .
+<https://github.com/chielvanderpas/ddss#GeometricalInformation> <http://www.w3.org/2000/01/rdf-schema#label> "Geometrical Information" .
+# 
+# https://github.com/chielvanderpas/ddss#IFC
+<https://github.com/chielvanderpas/ddss#IFC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#IFC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#IFC> <http://www.w3.org/2000/01/rdf-schema#label> "IFC Document" .
+# 
+# https://github.com/chielvanderpas/ddss#IFC2x3
+<https://github.com/chielvanderpas/ddss#IFC2x3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#IFC2x3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#IFC> .
+<https://github.com/chielvanderpas/ddss#IFC2x3> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/chielvanderpas/ddss#IFC4> .
+# 
+# https://github.com/chielvanderpas/ddss#IFC4
+<https://github.com/chielvanderpas/ddss#IFC4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#IFC4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#IFC> .
+# 
+# https://github.com/chielvanderpas/ddss#InformationObject
+<https://github.com/chielvanderpas/ddss#InformationObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#InformationObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Object> .
+<https://github.com/chielvanderpas/ddss#InformationObject> <http://purl.org/dc/terms/description> "An object that contains information about (part of) an asset." .
+<https://github.com/chielvanderpas/ddss#InformationObject> <http://www.w3.org/2000/01/rdf-schema#label> "Information Object" .
+# 
+# https://github.com/chielvanderpas/ddss#Inspections
+<https://github.com/chielvanderpas/ddss#Inspections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Inspections> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Maintain> .
+<https://github.com/chielvanderpas/ddss#Inspections> <http://purl.org/dc/terms/description> "Inspection of an asset where some aspect of a building is inspected, but not changed." .
+<https://github.com/chielvanderpas/ddss#Inspections> <http://www.w3.org/2000/01/rdf-schema#label> "Inspection Event" .
+# 
+# https://github.com/chielvanderpas/ddss#Internal
+<https://github.com/chielvanderpas/ddss#Internal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Internal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#SharingStatus> .
+<https://github.com/chielvanderpas/ddss#Internal> <http://purl.org/dc/terms/description> "The object is only shared to the internal team working on it." .
+<https://github.com/chielvanderpas/ddss#Internal> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Status Internal" .
+# 
+# https://github.com/chielvanderpas/ddss#JPEG
+<https://github.com/chielvanderpas/ddss#JPEG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#JPEG> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#JPEG> <http://www.w3.org/2000/01/rdf-schema#label> "Jpeg Document" .
+# 
+# https://github.com/chielvanderpas/ddss#Maintain
+<https://github.com/chielvanderpas/ddss#Maintain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Maintain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Event> .
+<https://github.com/chielvanderpas/ddss#Maintain> <http://purl.org/dc/terms/description> "Any type of changes or inspections of an asset during its lifespan." .
+<https://github.com/chielvanderpas/ddss#Maintain> <http://www.w3.org/2000/01/rdf-schema#label> "Maintain Event" .
+# 
+# https://github.com/chielvanderpas/ddss#Maintenance
+<https://github.com/chielvanderpas/ddss#Maintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Maintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Maintain> .
+<https://github.com/chielvanderpas/ddss#Maintenance> <http://purl.org/dc/terms/description> "Planned and unplanned maintenance on an asset." .
+<https://github.com/chielvanderpas/ddss#Maintenance> <http://www.w3.org/2000/01/rdf-schema#label> "Maintenance Event" .
+# 
+# https://github.com/chielvanderpas/ddss#Object
+<https://github.com/chielvanderpas/ddss#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Object> <http://purl.org/dc/terms/description> "Any object, either in the form of a physical object or an information object, that is part of the AIM in question." .
+<https://github.com/chielvanderpas/ddss#Object> <http://www.w3.org/2000/01/rdf-schema#label> "Object" .
+# 
+# https://github.com/chielvanderpas/ddss#Operations
+<https://github.com/chielvanderpas/ddss#Operations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Operations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Maintain> .
+<https://github.com/chielvanderpas/ddss#Operations> <http://purl.org/dc/terms/description> "Any event that relates to the operation of a building, such as cleaning, waste management, catering, etc." .
+<https://github.com/chielvanderpas/ddss#Operations> <http://www.w3.org/2000/01/rdf-schema#label> "Operations Event" .
+# 
+# https://github.com/chielvanderpas/ddss#PCD
+<https://github.com/chielvanderpas/ddss#PCD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#PCD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#PCD> <http://www.w3.org/2000/01/rdf-schema#label> "PCD Document" .
+# 
+# https://github.com/chielvanderpas/ddss#PDF
+<https://github.com/chielvanderpas/ddss#PDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#PDF> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#PDF> <http://www.w3.org/2000/01/rdf-schema#label> "PDF Document" .
+# 
+# https://github.com/chielvanderpas/ddss#PNG
+<https://github.com/chielvanderpas/ddss#PNG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#PNG> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#PNG> <http://www.w3.org/2000/01/rdf-schema#label> "PNG Document" .
+# 
+# https://github.com/chielvanderpas/ddss#PhysicalObject
+<https://github.com/chielvanderpas/ddss#PhysicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Object> .
+<https://github.com/chielvanderpas/ddss#PhysicalObject> <http://purl.org/dc/terms/description> "Any object that is present in the real world. Here defined by the BOT ontology. Objects do not have to be physical (i.e., a space can be a physical object) but it does need to have a geometrical shape in the real world." .
+<https://github.com/chielvanderpas/ddss#PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Object" .
+# 
+# https://github.com/chielvanderpas/ddss#Public
+<https://github.com/chielvanderpas/ddss#Public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Public> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#SharingStatus> .
+<https://github.com/chielvanderpas/ddss#Public> <http://purl.org/dc/terms/description> "The object is accessible by anyone." .
+<https://github.com/chielvanderpas/ddss#Public> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Status Public" .
+# 
+# https://github.com/chielvanderpas/ddss#Published
+<https://github.com/chielvanderpas/ddss#Published> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Published> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Status> .
+<https://github.com/chielvanderpas/ddss#Published> <http://purl.org/dc/terms/description> "A published document can be accessed by others, and is final. In general it will not be updated." .
+<https://github.com/chielvanderpas/ddss#Published> <http://www.w3.org/2000/01/rdf-schema#label> "Published Status" .
+# 
+# https://github.com/chielvanderpas/ddss#Refurbish
+<https://github.com/chielvanderpas/ddss#Refurbish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Refurbish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Renew> .
+<https://github.com/chielvanderpas/ddss#Refurbish> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/chielvanderpas/ddss#Renewal> .
+<https://github.com/chielvanderpas/ddss#Refurbish> <http://purl.org/dc/terms/description> "Large repairs and reparations, improvements, and upgrades to maintain an asset in its optimal state." .
+<https://github.com/chielvanderpas/ddss#Refurbish> <http://www.w3.org/2000/01/rdf-schema#label> "Refurbish Event" .
+# 
+# https://github.com/chielvanderpas/ddss#Renew
+<https://github.com/chielvanderpas/ddss#Renew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Renew> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Event> .
+<https://github.com/chielvanderpas/ddss#Renew> <http://purl.org/dc/terms/description> "Major changes or adaptions of an asset." .
+<https://github.com/chielvanderpas/ddss#Renew> <http://www.w3.org/2000/01/rdf-schema#label> "Renew Event" .
+# 
+# https://github.com/chielvanderpas/ddss#Renewal
+<https://github.com/chielvanderpas/ddss#Renewal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Renewal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Renew> .
+<https://github.com/chielvanderpas/ddss#Renewal> <http://purl.org/dc/terms/description> "Changes to an asset where parts of the building, or functions of the building, significantly change." .
+<https://github.com/chielvanderpas/ddss#Renewal> <http://www.w3.org/2000/01/rdf-schema#label> "Renewal Event" .
+# 
+# https://github.com/chielvanderpas/ddss#RepresentationInformationDocument
+<https://github.com/chielvanderpas/ddss#RepresentationInformationDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#RepresentationInformationDocument> <http://purl.org/dc/terms/description> "Information that describes how other information is structured. Required by the OAIS standard for durable data storage." .
+<https://github.com/chielvanderpas/ddss#RepresentationInformationDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Representation Information Document" .
+# 
+# https://github.com/chielvanderpas/ddss#Shared
+<https://github.com/chielvanderpas/ddss#Shared> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Shared> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Status> .
+<https://github.com/chielvanderpas/ddss#Shared> <http://purl.org/dc/terms/description> "A shared document can be accessed by others, but is still work in progress. New versions are to be expected." .
+<https://github.com/chielvanderpas/ddss#Shared> <http://www.w3.org/2000/01/rdf-schema#label> "Shared Status" .
+# 
+# https://github.com/chielvanderpas/ddss#SharedToExternalParty
+<https://github.com/chielvanderpas/ddss#SharedToExternalParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#SharedToExternalParty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#SharedToSpecific> .
+<https://github.com/chielvanderpas/ddss#SharedToExternalParty> <http://purl.org/dc/terms/description> "The object is shared to a specific external party." .
+<https://github.com/chielvanderpas/ddss#SharedToExternalParty> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Status to External Party" .
+# 
+# https://github.com/chielvanderpas/ddss#SharedToInternalGroup
+<https://github.com/chielvanderpas/ddss#SharedToInternalGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#SharedToInternalGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#SharedToSpecific> .
+<https://github.com/chielvanderpas/ddss#SharedToInternalGroup> <http://purl.org/dc/terms/description> "The object is shared to a specific internal group." .
+<https://github.com/chielvanderpas/ddss#SharedToInternalGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Status to Internal Group" .
+# 
+# https://github.com/chielvanderpas/ddss#SharedToInternalPerson
+<https://github.com/chielvanderpas/ddss#SharedToInternalPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#SharedToInternalPerson> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#SharedToSpecific> .
+<https://github.com/chielvanderpas/ddss#SharedToInternalPerson> <http://purl.org/dc/terms/description> "The object is shared to a specific internal person." .
+<https://github.com/chielvanderpas/ddss#SharedToInternalPerson> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Status to Internal Person" .
+# 
+# https://github.com/chielvanderpas/ddss#SharedToSpecific
+<https://github.com/chielvanderpas/ddss#SharedToSpecific> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#SharedToSpecific> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#SharingStatus> .
+<https://github.com/chielvanderpas/ddss#SharedToSpecific> <http://purl.org/dc/terms/description> "The object can be accessed by specific (groups of) people." .
+<https://github.com/chielvanderpas/ddss#SharedToSpecific> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Status Specific" .
+# 
+# https://github.com/chielvanderpas/ddss#SharingStatus
+<https://github.com/chielvanderpas/ddss#SharingStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#SharingStatus> <http://purl.org/dc/terms/description> "The people or parties who can access a specific object." .
+<https://github.com/chielvanderpas/ddss#SharingStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Status" .
+# 
+# https://github.com/chielvanderpas/ddss#Status
+<https://github.com/chielvanderpas/ddss#Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Status> <http://purl.org/dc/terms/description> "The status of a document as described by ISO 19650." .
+<https://github.com/chielvanderpas/ddss#Status> <http://www.w3.org/2000/01/rdf-schema#label> "Status" .
+# 
+# https://github.com/chielvanderpas/ddss#StatusChange
+<https://github.com/chielvanderpas/ddss#StatusChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#StatusChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#DocumentInteraction> .
+<https://github.com/chielvanderpas/ddss#StatusChange> <http://purl.org/dc/terms/description> "A document interaction where the status of a document is changed." .
+<https://github.com/chielvanderpas/ddss#StatusChange> <http://www.w3.org/2000/01/rdf-schema#label> "Status Change" .
+# 
+# https://github.com/chielvanderpas/ddss#Survey
+<https://github.com/chielvanderpas/ddss#Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Maintain> .
+<https://github.com/chielvanderpas/ddss#Survey> <http://purl.org/dc/terms/description> "Measuring and sureveying (part of) an asset." .
+<https://github.com/chielvanderpas/ddss#Survey> <http://www.w3.org/2000/01/rdf-schema#label> "Survey Event" .
+# 
+# https://github.com/chielvanderpas/ddss#TXT
+<https://github.com/chielvanderpas/ddss#TXT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#TXT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Document> .
+<https://github.com/chielvanderpas/ddss#TXT> <http://www.w3.org/2000/01/rdf-schema#label> "Txt Document" .
+# 
+# https://github.com/chielvanderpas/ddss#WorkInProgress
+<https://github.com/chielvanderpas/ddss#WorkInProgress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/chielvanderpas/ddss#WorkInProgress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#Status> .
+<https://github.com/chielvanderpas/ddss#WorkInProgress> <http://purl.org/dc/terms/description> "The document is being worked on, and is only accessible to those working on it." .
+<https://github.com/chielvanderpas/ddss#WorkInProgress> <http://www.w3.org/2000/01/rdf-schema#label> "Work In Progress Status" .
+# 
+# https://w3id.org/bot#Element
+<https://w3id.org/bot#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#PhysicalObject> .
+# 
+# https://w3id.org/bot#Zone
+<https://w3id.org/bot#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/chielvanderpas/ddss#PhysicalObject> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid20 <http://www.w3.org/2002/07/owl#members> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Renew> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Maintain> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#EndOfLife> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Acquire> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid25 <http://www.w3.org/2002/07/owl#members> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#WorkInProgress> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Shared> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Published> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Archived> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid30 <http://www.w3.org/2002/07/owl#members> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#PNG> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#PDF> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#PCD> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#JPEG> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#IFC> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#CSV> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid37 <http://www.w3.org/2002/07/owl#members> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Survey> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Operations> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Maintenance> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Inspections> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid42 <http://www.w3.org/2002/07/owl#members> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#SharedToSpecific> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Public> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://github.com/chielvanderpas/ddss#Internal> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,780 @@
+@prefix : <https://github.com/chielvanderpas/ddss#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://github.com/chielvanderpas/ddss#> .
+
+<https://github.com/chielvanderpas/ddss> rdf:type owl:Ontology ;
+                                          owl:imports <https://w3id.org/bot-0.3.2> ;
+                                          <http://purl.org/dc/terms/creator> "Chiel van der Pas" ;
+                                          <http://purl.org/dc/terms/description> "This ontology describes how data that has to be stored for a longer period of time within the built environment should be structured. The ontology is part of the Durable Data Storage System project, which is developed as part of a graduation thesis of the MSc. Construction Management and Engineering at Eindhoven University of Technology." ;
+                                          rdfs:label "DDSS Ontology" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://github.com/chielvanderpas/ddss#canAccess
+:canAccess rdf:type owl:ObjectProperty ;
+           rdfs:domain :Actor ;
+           rdfs:range :Object .
+
+
+###  https://github.com/chielvanderpas/ddss#concernsDocument
+:concernsDocument rdf:type owl:ObjectProperty ;
+                  rdfs:domain :DocumentInteraction ;
+                  rdfs:range :Document .
+
+
+###  https://github.com/chielvanderpas/ddss#contains
+:contains rdf:type owl:ObjectProperty ;
+          rdfs:domain :DataDrop ;
+          rdfs:range :DocumentInteraction .
+
+
+###  https://github.com/chielvanderpas/ddss#hasContentType
+:hasContentType rdf:type owl:ObjectProperty ;
+                rdfs:domain :Document ;
+                rdfs:range :ContentType .
+
+
+###  https://github.com/chielvanderpas/ddss#hasCopy
+:hasCopy rdf:type owl:ObjectProperty ;
+         rdfs:domain :Document ;
+         rdfs:range :CopyInOriginalFormat .
+
+
+###  https://github.com/chielvanderpas/ddss#hasDocumentationType
+:hasDocumentationType rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:domain :Document ;
+                      rdfs:range :DocumentationType .
+
+
+###  https://github.com/chielvanderpas/ddss#hasFork
+:hasFork rdf:type owl:ObjectProperty ;
+         rdfs:domain :AIM ;
+         rdfs:range :AIM .
+
+
+###  https://github.com/chielvanderpas/ddss#hasPreviousVersion
+:hasPreviousVersion rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Document ;
+                    rdfs:range :Document .
+
+
+###  https://github.com/chielvanderpas/ddss#hasRepresentationDocumentation
+:hasRepresentationDocumentation rdf:type owl:ObjectProperty ;
+                                rdfs:domain :Document ;
+                                rdfs:range :RepresentationInformationDocument .
+
+
+###  https://github.com/chielvanderpas/ddss#hasSharingStatus
+:hasSharingStatus rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Object ;
+                  rdfs:range :SharingStatus .
+
+
+###  https://github.com/chielvanderpas/ddss#hasStatus
+:hasStatus rdf:type owl:ObjectProperty ;
+           rdfs:domain :Document ;
+           rdfs:range :Status .
+
+
+###  https://github.com/chielvanderpas/ddss#hasSubEvent
+:hasSubEvent rdf:type owl:ObjectProperty ;
+             rdfs:domain :Event ;
+             rdfs:range :Event .
+
+
+###  https://github.com/chielvanderpas/ddss#involves
+:involves rdf:type owl:ObjectProperty ;
+          rdfs:domain :Event ;
+          rdfs:range :Actor .
+
+
+###  https://github.com/chielvanderpas/ddss#isForkOf
+:isForkOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :AIM ;
+          rdfs:range :AIM .
+
+
+###  https://github.com/chielvanderpas/ddss#locatedAt
+:locatedAt rdf:type owl:ObjectProperty ;
+           rdfs:domain :AIM ;
+           rdfs:range <https://bag2.basisregistraties.overheid.nl/bag/def/Pand> .
+
+
+###  https://github.com/chielvanderpas/ddss#partOf
+:partOf rdf:type owl:ObjectProperty ;
+        rdfs:domain :Object ;
+        rdfs:range :AIM .
+
+
+###  https://github.com/chielvanderpas/ddss#relatesToEvent
+:relatesToEvent rdf:type owl:ObjectProperty ;
+                rdfs:domain :DataDrop ;
+                rdfs:range :Event .
+
+
+###  https://github.com/chielvanderpas/ddss#relatesToPhysicalObject
+:relatesToPhysicalObject rdf:type owl:ObjectProperty ;
+                         rdfs:domain :InformationObject ;
+                         rdfs:range :PhysicalObject .
+
+
+###  https://github.com/chielvanderpas/ddss#uploadedBy
+:uploadedBy rdf:type owl:ObjectProperty ;
+            rdfs:domain :DataDrop ;
+            rdfs:range :Actor .
+
+
+###  https://github.com/chielvanderpas/ddss/ddPartOf
+<https://github.com/chielvanderpas/ddss/ddPartOf> rdf:type owl:ObjectProperty ;
+                                                  rdfs:domain :DataDrop ;
+                                                  rdfs:range :AIM .
+
+
+###  https://github.com/chielvanderpas/ddss/hasResponsibleActor
+<https://github.com/chielvanderpas/ddss/hasResponsibleActor> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain :DocumentInteraction ;
+                                                             rdfs:range :Actor .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://github.com/chielvanderpas/ddss#copyStoredAt
+:copyStoredAt rdf:type owl:DatatypeProperty ;
+              rdfs:domain :CopyInOriginalFormat ;
+              rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#endedAt
+:endedAt rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Event ;
+         rdfs:range xsd:dateTime .
+
+
+###  https://github.com/chielvanderpas/ddss#hasBotDescription
+:hasBotDescription rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :PhysicalObject ;
+                   rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasBotLongName
+:hasBotLongName rdf:type owl:DatatypeProperty ;
+                rdfs:domain :PhysicalObject ;
+                rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasBotName
+:hasBotName rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :PhysicalObject ;
+            rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasCopyFileName
+:hasCopyFileName rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :CopyInOriginalFormat ;
+                 rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasCreationSoftware
+:hasCreationSoftware rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Document ;
+                     rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasCreationSoftwareVersion
+:hasCreationSoftwareVersion rdf:type owl:DatatypeProperty ;
+                            rdfs:domain :Document ;
+                            rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasDocumentDescription
+:hasDocumentDescription rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :Document ;
+                        rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasEmailAddress
+:hasEmailAddress rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Actor ;
+                 rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasEventDescription
+:hasEventDescription rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Event ;
+                     rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasFileFormat
+:hasFileFormat rdf:type owl:DatatypeProperty ;
+               rdfs:domain :CopyInOriginalFormat ;
+               rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasFileName
+:hasFileName rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Document ;
+             rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasGuid
+:hasGuid rdf:type owl:DatatypeProperty ;
+         rdfs:domain :PhysicalObject ;
+         rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasModelName
+:hasModelName rdf:type owl:DatatypeProperty ;
+              rdfs:domain :AIM ;
+              rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Actor ;
+         rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasPhoneNumber
+:hasPhoneNumber rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Actor ;
+                rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasPreservationUntilDate
+:hasPreservationUntilDate rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Document ;
+                          rdfs:range xsd:dateTime .
+
+
+###  https://github.com/chielvanderpas/ddss#hasRole
+:hasRole rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Actor ;
+         rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#hasUniqueIdentifier
+:hasUniqueIdentifier rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Document ;
+                     rdfs:range rdfs:Literal .
+
+
+###  https://github.com/chielvanderpas/ddss#occurredAt
+:occurredAt rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :DataDrop ;
+            rdfs:range xsd:dateTime .
+
+
+###  https://github.com/chielvanderpas/ddss#startedAt
+:startedAt rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Event ;
+           rdfs:range xsd:dateTime .
+
+
+###  https://github.com/chielvanderpas/ddss#storedAt
+:storedAt rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Document ;
+          rdfs:range rdfs:Literal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://xmlns.com/foaf/spec/#Person
+<http://xmlns.com/foaf/spec/#Person> rdf:type owl:Class .
+
+
+###  https://bag2.basisregistraties.overheid.nl/bag/def/Pand
+<https://bag2.basisregistraties.overheid.nl/bag/def/Pand> rdf:type owl:Class .
+
+
+###  https://github.com/chielvanderpas/ddss#AIM
+:AIM rdf:type owl:Class ;
+     owl:equivalentClass [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasModelName ;
+                           owl:cardinality "1"^^xsd:nonNegativeInteger
+                         ] ;
+     <http://purl.org/dc/terms/description> "Asset Information Model. A model that contains all information related to a certain asset in the built environment as defined by ISO 19650." ;
+     rdfs:label "AIM" .
+
+
+###  https://github.com/chielvanderpas/ddss#Acquire
+:Acquire rdf:type owl:Class ;
+         rdfs:subClassOf :Event ;
+         <http://purl.org/dc/terms/description> "The acquistion of an asset, the transfer of an asset from the construction to the operational phase, or the transfer of ownership of an asset." ;
+         rdfs:label "Acquire Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#Actor
+:Actor rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasEmailAddress ;
+                             owl:minCardinality "1"^^xsd:nonNegativeInteger
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasPhoneNumber ;
+                             owl:minCardinality "1"^^xsd:nonNegativeInteger
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasName ;
+                             owl:cardinality "1"^^xsd:nonNegativeInteger
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasRole ;
+                             owl:cardinality "1"^^xsd:nonNegativeInteger
+                           ] ;
+       rdfs:subClassOf <http://xmlns.com/foaf/spec/#Person> ;
+       <http://purl.org/dc/terms/description> "Any human being." ;
+       rdfs:label "Actor" .
+
+
+###  https://github.com/chielvanderpas/ddss#AlphanumericalInformation
+:AlphanumericalInformation rdf:type owl:Class ;
+                           rdfs:subClassOf :ContentType ;
+                           <http://purl.org/dc/terms/description> "Alphanumerical Information on a building or part of a building, as described by ISO 19650." ;
+                           rdfs:label "Alphanumerical Information" .
+
+
+###  https://github.com/chielvanderpas/ddss#Archived
+:Archived rdf:type owl:Class ;
+          rdfs:subClassOf :Status ;
+          <http://purl.org/dc/terms/description> "An 'archived' document has been published, but is no longer relevant. It cannot be changed." ;
+          rdfs:label "Archived Status" .
+
+
+###  https://github.com/chielvanderpas/ddss#CSV
+:CSV rdf:type owl:Class ;
+     rdfs:subClassOf :Document ;
+     rdfs:label "CSV Document" .
+
+
+###  https://github.com/chielvanderpas/ddss#ContentType
+:ContentType rdf:type owl:Class ;
+             <http://purl.org/dc/terms/description> "The type of content that a document contains, as defined by ISO 19650." ;
+             rdfs:label "Content Type" .
+
+
+###  https://github.com/chielvanderpas/ddss#CopyInOriginalFormat
+:CopyInOriginalFormat rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                            owl:onProperty :hasFileFormat ;
+                                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                                          ] ;
+                      <http://purl.org/dc/terms/description> "The copy of a document in its original file format. This copy in original format might help restoring data when something went wrong with transforming the document in question into an open file format." ;
+                      rdfs:label "Copy in Original Format" .
+
+
+###  https://github.com/chielvanderpas/ddss#Creation
+:Creation rdf:type owl:Class ;
+          rdfs:subClassOf :DocumentInteraction ;
+          <http://purl.org/dc/terms/description> "A document interaction where a new document is created." ;
+          rdfs:label "Creation" .
+
+
+###  https://github.com/chielvanderpas/ddss#DataDrop
+:DataDrop rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :contains ;
+                                owl:minCardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :uploadedBy ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :occurredAt ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ;
+          <http://purl.org/dc/terms/description> "A package of information submitted to an AIM at a single point in time, as described by ISO 19650. A data drop is usually trigerred by an event." ;
+          rdfs:label "Data Drop" .
+
+
+###  https://github.com/chielvanderpas/ddss#Document
+:Document rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasContentType ;
+                                owl:minCardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasRepresentationDocumentation ;
+                                owl:minCardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasStatus ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasContentType ;
+                                owl:maxCardinality "3"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasFileName ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasPreservationUntilDate ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ;
+          rdfs:subClassOf :InformationObject ;
+          <http://purl.org/dc/terms/description> "A digital document which contains information and which can be shared with others in the form of a document." ;
+          rdfs:label "Document" .
+
+
+###  https://github.com/chielvanderpas/ddss#DocumentInteraction
+:DocumentInteraction rdf:type owl:Class ;
+                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                           owl:onProperty :concernsDocument ;
+                                           owl:cardinality "1"^^xsd:nonNegativeInteger
+                                         ] ;
+                     <http://purl.org/dc/terms/description> "An interaction between an actor (person) and a document. There are multiple types of document interactions. Every document interaction is part of a data drop." ;
+                     rdfs:label "Document Interaction" .
+
+
+###  https://github.com/chielvanderpas/ddss#Documentation
+:Documentation rdf:type owl:Class ;
+               rdfs:subClassOf :ContentType ;
+               <http://purl.org/dc/terms/description> "Information describing (part of) a building as described by ISO 19650." ;
+               rdfs:label "Documentation" .
+
+
+###  https://github.com/chielvanderpas/ddss#DocumentationType
+:DocumentationType rdf:type owl:Class ;
+                   rdfs:label "Documentation Type" .
+
+
+###  https://github.com/chielvanderpas/ddss#Edit
+:Edit rdf:type owl:Class ;
+      rdfs:subClassOf :DocumentInteraction ;
+      <http://purl.org/dc/terms/description> "A document interaction where a new version of an existing document is uploaded." ;
+      rdfs:label "Edit" .
+
+
+###  https://github.com/chielvanderpas/ddss#EndOfLife
+:EndOfLife rdf:type owl:Class ;
+           rdfs:subClassOf :Event ;
+           <http://purl.org/dc/terms/description> "The disposal, decommissioning, demolition, or tranfer of ownership of an asset." ;
+           rdfs:label "End of Life Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#Event
+:Event rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :involves ;
+                             owl:minCardinality "1"^^xsd:nonNegativeInteger
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :startedAt ;
+                             owl:cardinality "1"^^xsd:nonNegativeInteger
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :endedAt ;
+                             owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                           ] ;
+       rdfs:subClassOf :InformationObject ;
+       <http://purl.org/dc/terms/description> "Any event that relates to an asset, and about which information should be stored within an AIM. An event can be planned (i.e., the delivery of a building) or unplanned (i.e., damage to the asset)." ;
+       rdfs:label "Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#GeometricalInformation
+:GeometricalInformation rdf:type owl:Class ;
+                        rdfs:subClassOf :ContentType ;
+                        <http://purl.org/dc/terms/description> "Information describing the geometry of a building or part of a building, as described by ISO 19650. Usually stored in the form of an IFC model or other BIM model." ;
+                        rdfs:label "Geometrical Information" .
+
+
+###  https://github.com/chielvanderpas/ddss#IFC
+:IFC rdf:type owl:Class ;
+     rdfs:subClassOf :Document ;
+     rdfs:label "IFC Document" .
+
+
+###  https://github.com/chielvanderpas/ddss#IFC2x3
+:IFC2x3 rdf:type owl:Class ;
+        rdfs:subClassOf :IFC ;
+        owl:disjointWith :IFC4 .
+
+
+###  https://github.com/chielvanderpas/ddss#IFC4
+:IFC4 rdf:type owl:Class ;
+      rdfs:subClassOf :IFC .
+
+
+###  https://github.com/chielvanderpas/ddss#InformationObject
+:InformationObject rdf:type owl:Class ;
+                   rdfs:subClassOf :Object ;
+                   <http://purl.org/dc/terms/description> "An object that contains information about (part of) an asset." ;
+                   rdfs:label "Information Object" .
+
+
+###  https://github.com/chielvanderpas/ddss#Inspections
+:Inspections rdf:type owl:Class ;
+             rdfs:subClassOf :Maintain ;
+             <http://purl.org/dc/terms/description> "Inspection of an asset where some aspect of a building is inspected, but not changed." ;
+             rdfs:label "Inspection Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#Internal
+:Internal rdf:type owl:Class ;
+          rdfs:subClassOf :SharingStatus ;
+          <http://purl.org/dc/terms/description> "The object is only shared to the internal team working on it." ;
+          rdfs:label "Sharing Status Internal" .
+
+
+###  https://github.com/chielvanderpas/ddss#JPEG
+:JPEG rdf:type owl:Class ;
+      rdfs:subClassOf :Document ;
+      rdfs:label "Jpeg Document" .
+
+
+###  https://github.com/chielvanderpas/ddss#Maintain
+:Maintain rdf:type owl:Class ;
+          rdfs:subClassOf :Event ;
+          <http://purl.org/dc/terms/description> "Any type of changes or inspections of an asset during its lifespan." ;
+          rdfs:label "Maintain Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#Maintenance
+:Maintenance rdf:type owl:Class ;
+             rdfs:subClassOf :Maintain ;
+             <http://purl.org/dc/terms/description> "Planned and unplanned maintenance on an asset." ;
+             rdfs:label "Maintenance Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#Object
+:Object rdf:type owl:Class ;
+        <http://purl.org/dc/terms/description> "Any object, either in the form of a physical object or an information object, that is part of the AIM in question." ;
+        rdfs:label "Object" .
+
+
+###  https://github.com/chielvanderpas/ddss#Operations
+:Operations rdf:type owl:Class ;
+            rdfs:subClassOf :Maintain ;
+            <http://purl.org/dc/terms/description> "Any event that relates to the operation of a building, such as cleaning, waste management, catering, etc." ;
+            rdfs:label "Operations Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#PCD
+:PCD rdf:type owl:Class ;
+     rdfs:subClassOf :Document ;
+     rdfs:label "PCD Document" .
+
+
+###  https://github.com/chielvanderpas/ddss#PDF
+:PDF rdf:type owl:Class ;
+     rdfs:subClassOf :Document ;
+     rdfs:label "PDF Document" .
+
+
+###  https://github.com/chielvanderpas/ddss#PNG
+:PNG rdf:type owl:Class ;
+     rdfs:subClassOf :Document ;
+     rdfs:label "PNG Document" .
+
+
+###  https://github.com/chielvanderpas/ddss#PhysicalObject
+:PhysicalObject rdf:type owl:Class ;
+                rdfs:subClassOf :Object ;
+                <http://purl.org/dc/terms/description> "Any object that is present in the real world. Here defined by the BOT ontology. Objects do not have to be physical (i.e., a space can be a physical object) but it does need to have a geometrical shape in the real world." ;
+                rdfs:label "Physical Object" .
+
+
+###  https://github.com/chielvanderpas/ddss#Public
+:Public rdf:type owl:Class ;
+        rdfs:subClassOf :SharingStatus ;
+        <http://purl.org/dc/terms/description> "The object is accessible by anyone." ;
+        rdfs:label "Sharing Status Public" .
+
+
+###  https://github.com/chielvanderpas/ddss#Published
+:Published rdf:type owl:Class ;
+           rdfs:subClassOf :Status ;
+           <http://purl.org/dc/terms/description> "A published document can be accessed by others, and is final. In general it will not be updated." ;
+           rdfs:label "Published Status" .
+
+
+###  https://github.com/chielvanderpas/ddss#Refurbish
+:Refurbish rdf:type owl:Class ;
+           rdfs:subClassOf :Renew ;
+           owl:disjointWith :Renewal ;
+           <http://purl.org/dc/terms/description> "Large repairs and reparations, improvements, and upgrades to maintain an asset in its optimal state." ;
+           rdfs:label "Refurbish Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#Renew
+:Renew rdf:type owl:Class ;
+       rdfs:subClassOf :Event ;
+       <http://purl.org/dc/terms/description> "Major changes or adaptions of an asset." ;
+       rdfs:label "Renew Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#Renewal
+:Renewal rdf:type owl:Class ;
+         rdfs:subClassOf :Renew ;
+         <http://purl.org/dc/terms/description> "Changes to an asset where parts of the building, or functions of the building, significantly change." ;
+         rdfs:label "Renewal Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#RepresentationInformationDocument
+:RepresentationInformationDocument rdf:type owl:Class ;
+                                   <http://purl.org/dc/terms/description> "Information that describes how other information is structured. Required by the OAIS standard for durable data storage." ;
+                                   rdfs:label "Representation Information Document" .
+
+
+###  https://github.com/chielvanderpas/ddss#Shared
+:Shared rdf:type owl:Class ;
+        rdfs:subClassOf :Status ;
+        <http://purl.org/dc/terms/description> "A shared document can be accessed by others, but is still work in progress. New versions are to be expected." ;
+        rdfs:label "Shared Status" .
+
+
+###  https://github.com/chielvanderpas/ddss#SharedToExternalParty
+:SharedToExternalParty rdf:type owl:Class ;
+                       rdfs:subClassOf :SharedToSpecific ;
+                       <http://purl.org/dc/terms/description> "The object is shared to a specific external party." ;
+                       rdfs:label "Sharing Status to External Party" .
+
+
+###  https://github.com/chielvanderpas/ddss#SharedToInternalGroup
+:SharedToInternalGroup rdf:type owl:Class ;
+                       rdfs:subClassOf :SharedToSpecific ;
+                       <http://purl.org/dc/terms/description> "The object is shared to a specific internal group." ;
+                       rdfs:label "Sharing Status to Internal Group" .
+
+
+###  https://github.com/chielvanderpas/ddss#SharedToInternalPerson
+:SharedToInternalPerson rdf:type owl:Class ;
+                        rdfs:subClassOf :SharedToSpecific ;
+                        <http://purl.org/dc/terms/description> "The object is shared to a specific internal person." ;
+                        rdfs:label "Sharing Status to Internal Person" .
+
+
+###  https://github.com/chielvanderpas/ddss#SharedToSpecific
+:SharedToSpecific rdf:type owl:Class ;
+                  rdfs:subClassOf :SharingStatus ;
+                  <http://purl.org/dc/terms/description> "The object can be accessed by specific (groups of) people." ;
+                  rdfs:label "Sharing Status Specific" .
+
+
+###  https://github.com/chielvanderpas/ddss#SharingStatus
+:SharingStatus rdf:type owl:Class ;
+               <http://purl.org/dc/terms/description> "The people or parties who can access a specific object." ;
+               rdfs:label "Sharing Status" .
+
+
+###  https://github.com/chielvanderpas/ddss#Status
+:Status rdf:type owl:Class ;
+        <http://purl.org/dc/terms/description> "The status of a document as described by ISO 19650." ;
+        rdfs:label "Status" .
+
+
+###  https://github.com/chielvanderpas/ddss#StatusChange
+:StatusChange rdf:type owl:Class ;
+              rdfs:subClassOf :DocumentInteraction ;
+              <http://purl.org/dc/terms/description> "A document interaction where the status of a document is changed." ;
+              rdfs:label "Status Change" .
+
+
+###  https://github.com/chielvanderpas/ddss#Survey
+:Survey rdf:type owl:Class ;
+        rdfs:subClassOf :Maintain ;
+        <http://purl.org/dc/terms/description> "Measuring and sureveying (part of) an asset." ;
+        rdfs:label "Survey Event" .
+
+
+###  https://github.com/chielvanderpas/ddss#TXT
+:TXT rdf:type owl:Class ;
+     rdfs:subClassOf :Document ;
+     rdfs:label "Txt Document" .
+
+
+###  https://github.com/chielvanderpas/ddss#WorkInProgress
+:WorkInProgress rdf:type owl:Class ;
+                rdfs:subClassOf :Status ;
+                <http://purl.org/dc/terms/description> "The document is being worked on, and is only accessible to those working on it." ;
+                rdfs:label "Work In Progress Status" .
+
+
+###  https://w3id.org/bot#Element
+<https://w3id.org/bot#Element> rdf:type owl:Class ;
+                               rdfs:subClassOf :PhysicalObject .
+
+
+###  https://w3id.org/bot#Zone
+<https://w3id.org/bot#Zone> rdf:type owl:Class ;
+                            rdfs:subClassOf :PhysicalObject .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Acquire
+                :EndOfLife
+                :Maintain
+                :Renew
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Archived
+                :Published
+                :Shared
+                :WorkInProgress
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CSV
+                :IFC
+                :JPEG
+                :PCD
+                :PDF
+                :PNG
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Inspections
+                :Maintenance
+                :Operations
+                :Survey
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Internal
+                :Public
+                :SharedToSpecific
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
